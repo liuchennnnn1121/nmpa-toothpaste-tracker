@@ -80,10 +80,10 @@ python3 toothpaste_tracker_pipeline.py single-brand --month 2026-05 --brand 参�
 python3 toothpaste_tracker_pipeline.py rebuild-panel
 ```
 
-如果想顺手生成一个可直接部署到公网的静态站目录：
+如果想更新公网网页，使用一键发布脚本：
 
 ```bash
-python3 toothpaste_tracker_pipeline.py rebuild-panel --build-site
+./scripts/publish_site.sh
 ```
 
 ## 输出
@@ -96,33 +96,28 @@ python3 toothpaste_tracker_pipeline.py rebuild-panel --build-site
 - `output/progress/YYYY-MM_brand_progress.jsonl`
 - `output/brand_dashboard.html`
 - `output/package_images/YYYY-MM/...`
-- `site/`（执行 `--build-site` 后生成，可直接部署到 GitHub Pages / Netlify / Vercel）
+- `docs/`（GitHub Pages 发布目录，由 `./scripts/publish_site.sh` 自动同步）
 
 ## 上线到公网
 
 当前面板是纯静态 HTML，最省事的方式就是静态托管，不需要额外后端。
 
-### 方案 A：GitHub Pages 自动发布
+### GitHub Pages
 
-仓库已预留 GitHub Pages 工作流：
-
-- `.github/workflows/deploy-pages.yml`
-- `python3 toothpaste_tracker_pipeline.py rebuild-panel --build-site`
-
-使用方式：
-
-1. 把当前目录初始化并推送到 GitHub 仓库。
-2. 确保 `output/brand_dashboard.html` 和 `output/package_images/` 一并提交。
-3. 在 GitHub 仓库里打开 `Settings -> Pages`，Source 选择 `GitHub Actions`。
-4. 之后每次推送到 `main`，都会自动发布 `site/` 目录。
-
-发布后访问地址通常是：
+当前公网地址：
 
 ```text
-https://<你的 GitHub 用户名>.github.io/<仓库名>/
+https://liuchennnnn1121.github.io/nmpa-toothpaste-tracker/
 ```
 
-### 方案 B：手动上传到其他静态托管
+GitHub Pages 使用 `main` 分支的 `docs/` 目录发布。一键发布脚本会自动完成：
+
+- 重建 `output/brand_dashboard.html`
+- 同步 `docs/index.html`、月度面板和 `docs/package_images/`
+- 创建 Git 提交
+- 推送到 `origin/main`
+
+### 其他静态托管
 
 如果你们更习惯国内可访问性更好的平台，也可以直接上传 `site/` 目录到：
 
@@ -132,22 +127,27 @@ https://<你的 GitHub 用户名>.github.io/<仓库名>/
 - 阿里云 OSS 静态网站
 - 腾讯云 COS 静态网站
 
-核心原则只有一个：发布目录选择 `site/`。
+核心原则只有一个：发布目录选择 `docs/`。
 
 ### 推荐发布流程
 
-每次月度数据更新后执行：
+每次数据或页面结构更新后执行：
 
 ```bash
-python3 toothpaste_tracker_pipeline.py rebuild-panel --build-site
+./scripts/publish_site.sh
 ```
 
-然后：
+如需自定义提交信息：
 
-- 如果用 GitHub Pages：直接 `git push`
-- 如果用 Netlify / Vercel / OSS：上传 `site/` 目录
-- `output/package_pdfs/YYYY-MM/...`
-- `output/package_renders/YYYY-MM/...`
+```bash
+./scripts/publish_site.sh --message "update 2026-07 dashboard"
+```
+
+如需只重建和提交、不推送：
+
+```bash
+./scripts/publish_site.sh --no-push
+```
 
 ## 自动化
 

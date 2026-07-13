@@ -5,5 +5,9 @@ __pycache__/
 site/
 
 output/logs/
+output/package_images/
+output/package_pdfs/
+output/package_renders/
 
 archive/output-debug/
+.github/workflows/
