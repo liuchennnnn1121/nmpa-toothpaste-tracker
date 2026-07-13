@@ -1,0 +1,544 @@
+{
+  "month": "2026-06",
+  "source": "current_chrome_page_month_hits",
+  "capture_scope": "month_hits_only",
+  "summary_count": 10,
+  "detail_count": 7,
+  "results": [
+    {
+      "brand": "参半",
+      "month": "2026-06",
+      "latest_filing_date": "2026-06-17",
+      "product_name": "参半美白净齿牙膏",
+      "filing_no": "粤国牙膏网备字2026003078",
+      "filer": "深圳小阔科技股份有限公司",
+      "month_count": 1,
+      "note": "2026-06存在备案记录",
+      "month_rows": [
+        {
+          "seq": "128",
+          "product_name": "参半美白净齿牙膏",
+          "filing_no": "粤国牙膏网备字2026003078",
+          "filing_date": "2026-06-17",
+          "filer": "深圳小阔科技股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        }
+      ],
+      "spu_groups": [
+        {
+          "spu_name": "参半美白净齿牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-06-17",
+          "latest_product_name": "参半美白净齿牙膏",
+          "filers": [
+            "深圳小阔科技股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "128",
+              "product_name": "参半美白净齿牙膏",
+              "filing_no": "粤国牙膏网备字2026003078",
+              "filing_date": "2026-06-17",
+              "filer": "深圳小阔科技股份有限公司",
+              "detail": "详情",
+              "detail_url": "",
+              "package_info_status": "no_detail_url",
+              "package_images": [],
+              "package_files": [],
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "spu_name": "参半美白净齿牙膏"
+            }
+          ]
+        }
+      ],
+      "all_rows": [
+        {
+          "seq": "128",
+          "product_name": "参半美白净齿牙膏",
+          "filing_no": "粤国牙膏网备字2026003078",
+          "filing_date": "2026-06-17",
+          "filer": "深圳小阔科技股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        }
+      ]
+    },
+    {
+      "brand": "笑容加",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "高露洁",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "佳洁士",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "BOP",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "白惜",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "俊小白",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "冷酸灵",
+      "month": "2026-06",
+      "latest_filing_date": "2026-06-05",
+      "product_name": "冷酸灵专效防龋儿童牙膏",
+      "filing_no": "渝国牙膏网备字2026000060",
+      "filer": "重庆登康口腔护理用品股份有限公司",
+      "month_count": 6,
+      "note": "2026-06存在备案记录",
+      "month_rows": [
+        {
+          "seq": "14",
+          "product_name": "冷酸灵专效防龋儿童牙膏",
+          "filing_no": "渝国牙膏网备字2026000060",
+          "filing_date": "2026-06-05",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "18",
+          "product_name": "冷酸灵专研抗敏牙膏收藏版",
+          "filing_no": "渝国牙膏网备字2026000049",
+          "filing_date": "2026-06-03",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "30",
+          "product_name": "冷酸灵贝乐乐安心优护儿童牙膏(换牙期)(清新香橙味)收藏版",
+          "filing_no": "渝国牙膏网备字2026000038",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "19",
+          "product_name": "冷酸灵舒敏修护牙膏",
+          "filing_no": "渝国牙膏网备字2026000059",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "20",
+          "product_name": "冷酸灵优效修护抗敏牙膏",
+          "filing_no": "渝国牙膏网备字2026000058",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "17",
+          "product_name": "冷酸灵专效修护抗敏牙膏",
+          "filing_no": "渝国牙膏网备字2026000057",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        }
+      ],
+      "spu_groups": [
+        {
+          "spu_name": "冷酸灵专效防龋儿童牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-06-05",
+          "latest_product_name": "冷酸灵专效防龋儿童牙膏",
+          "filers": [
+            "重庆登康口腔护理用品股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "14",
+              "product_name": "冷酸灵专效防龋儿童牙膏",
+              "filing_no": "渝国牙膏网备字2026000060",
+              "filing_date": "2026-06-05",
+              "filer": "重庆登康口腔护理用品股份有限公司",
+              "detail": "详情",
+              "detail_url": "",
+              "package_info_status": "no_detail_url",
+              "package_images": [],
+              "package_files": [],
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "spu_name": "冷酸灵专效防龋儿童牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "冷酸灵专研抗敏牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-06-03",
+          "latest_product_name": "冷酸灵专研抗敏牙膏收藏版",
+          "filers": [
+            "重庆登康口腔护理用品股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "18",
+              "product_name": "冷酸灵专研抗敏牙膏收藏版",
+              "filing_no": "渝国牙膏网备字2026000049",
+              "filing_date": "2026-06-03",
+              "filer": "重庆登康口腔护理用品股份有限公司",
+              "detail": "详情",
+              "detail_url": "",
+              "package_info_status": "no_detail_url",
+              "package_images": [],
+              "package_files": [],
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "spu_name": "冷酸灵专研抗敏牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "冷酸灵贝乐乐安心优护儿童牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-06-01",
+          "latest_product_name": "冷酸灵贝乐乐安心优护儿童牙膏(换牙期)(清新香橙味)收藏版",
+          "filers": [
+            "重庆登康口腔护理用品股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "30",
+              "product_name": "冷酸灵贝乐乐安心优护儿童牙膏(换牙期)(清新香橙味)收藏版",
+              "filing_no": "渝国牙膏网备字2026000038",
+              "filing_date": "2026-06-01",
+              "filer": "重庆登康口腔护理用品股份有限公司",
+              "detail": "详情",
+              "detail_url": "",
+              "package_info_status": "no_detail_url",
+              "package_images": [],
+              "package_files": [],
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "spu_name": "冷酸灵贝乐乐安心优护儿童牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "冷酸灵舒敏修护牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-06-01",
+          "latest_product_name": "冷酸灵舒敏修护牙膏",
+          "filers": [
+            "重庆登康口腔护理用品股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "19",
+              "product_name": "冷酸灵舒敏修护牙膏",
+              "filing_no": "渝国牙膏网备字2026000059",
+              "filing_date": "2026-06-01",
+              "filer": "重庆登康口腔护理用品股份有限公司",
+              "detail": "详情",
+              "detail_url": "",
+              "package_info_status": "no_detail_url",
+              "package_images": [],
+              "package_files": [],
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "spu_name": "冷酸灵舒敏修护牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "冷酸灵优效修护抗敏牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-06-01",
+          "latest_product_name": "冷酸灵优效修护抗敏牙膏",
+          "filers": [
+            "重庆登康口腔护理用品股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "20",
+              "product_name": "冷酸灵优效修护抗敏牙膏",
+              "filing_no": "渝国牙膏网备字2026000058",
+              "filing_date": "2026-06-01",
+              "filer": "重庆登康口腔护理用品股份有限公司",
+              "detail": "详情",
+              "detail_url": "",
+              "package_info_status": "no_detail_url",
+              "package_images": [],
+              "package_files": [],
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "spu_name": "冷酸灵优效修护抗敏牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "冷酸灵专效修护抗敏牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-06-01",
+          "latest_product_name": "冷酸灵专效修护抗敏牙膏",
+          "filers": [
+            "重庆登康口腔护理用品股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "17",
+              "product_name": "冷酸灵专效修护抗敏牙膏",
+              "filing_no": "渝国牙膏网备字2026000057",
+              "filing_date": "2026-06-01",
+              "filer": "重庆登康口腔护理用品股份有限公司",
+              "detail": "详情",
+              "detail_url": "",
+              "package_info_status": "no_detail_url",
+              "package_images": [],
+              "package_files": [],
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "spu_name": "冷酸灵专效修护抗敏牙膏"
+            }
+          ]
+        }
+      ],
+      "all_rows": [
+        {
+          "seq": "14",
+          "product_name": "冷酸灵专效防龋儿童牙膏",
+          "filing_no": "渝国牙膏网备字2026000060",
+          "filing_date": "2026-06-05",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "18",
+          "product_name": "冷酸灵专研抗敏牙膏收藏版",
+          "filing_no": "渝国牙膏网备字2026000049",
+          "filing_date": "2026-06-03",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "30",
+          "product_name": "冷酸灵贝乐乐安心优护儿童牙膏(换牙期)(清新香橙味)收藏版",
+          "filing_no": "渝国牙膏网备字2026000038",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "19",
+          "product_name": "冷酸灵舒敏修护牙膏",
+          "filing_no": "渝国牙膏网备字2026000059",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "20",
+          "product_name": "冷酸灵优效修护抗敏牙膏",
+          "filing_no": "渝国牙膏网备字2026000058",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        },
+        {
+          "seq": "17",
+          "product_name": "冷酸灵专效修护抗敏牙膏",
+          "filing_no": "渝国牙膏网备字2026000057",
+          "filing_date": "2026-06-01",
+          "filer": "重庆登康口腔护理用品股份有限公司",
+          "detail": "详情",
+          "detail_url": "",
+          "package_info_status": "no_detail_url",
+          "package_images": [],
+          "package_files": [],
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": []
+        }
+      ]
+    },
+    {
+      "brand": "舒适达",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "好来",
+      "month": "2026-06",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-06未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    }
+  ]
+}
