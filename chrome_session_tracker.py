@@ -276,7 +276,7 @@ def current_nmpa_page_health() -> dict[str, object]:
       });
     })()
     """
-    raw = execute_on_tab(NMPA_TAB_KEY, script)
+    raw = execute_on_tab(NMPA_URL_FILTER, script)
     return json.loads(raw) if raw else {}
 
 
@@ -313,6 +313,10 @@ def ensure_nmpa_runtime_page() -> None:
         has_search_input = bool(state.get("has_search_input"))
         has_select_input = bool(state.get("has_select_input"))
         if ready == "complete" and title and scripts >= 10 and (text_len >= 50 or (has_search_input and has_select_input)):
+            try:
+                execute_on_tab(NMPA_URL_FILTER, f'window.name = "{NMPA_WORKER_NAME}"; "ok";')
+            except Exception:
+                pass
             return
     except Exception:
         pass
@@ -1415,7 +1419,11 @@ def run_osascript(lines: list[str]) -> str:
         cmd.extend(["-e", line])
     last_error = ""
     for attempt in range(3):
-        result = subprocess.run(cmd, capture_output=True, text=True, check=False)
+        try:
+            result = subprocess.run(cmd, capture_output=True, text=True, check=False, timeout=30)
+        except subprocess.TimeoutExpired:
+            last_error = "osascript 执行超时"
+            continue
         if result.returncode == 0:
             return result.stdout.strip()
         last_error = result.stderr.strip() or result.stdout.strip() or "osascript 执行失败"
@@ -1448,16 +1456,25 @@ def chrome_target_lines(url_part: str) -> list[str]:
     lines = [
         'tell application "Google Chrome"',
         "set targetTab to missing value",
+        "set targetWindow to missing value",
+        "set targetTabIndex to 0",
         "set workerTab to missing value",
+        "set workerWindow to missing value",
+        "set workerTabIndex to 0",
         "set bestScore to -1",
         "repeat with w in windows",
-        "repeat with t in tabs of w",
+        "repeat with tabIndex from 1 to (count of tabs of w)",
+        "set t to tab tabIndex of w",
         "set u to URL of t",
         f'if u contains "{NMPA_URL_FILTER}" then',
         "set scriptsCount to 0",
         "set textLen to 0",
         "set titleLen to 0",
         'set tabName to ""',
+        "try",
+        "set active tab index of w to tabIndex",
+        "set index of w to 1",
+        "end try",
         "try",
         f'set probe to execute t javascript "{probe_script}"',
         "set oldTIDs to AppleScript's text item delimiters",
@@ -1473,12 +1490,18 @@ def chrome_target_lines(url_part: str) -> list[str]:
         "on error",
         "set AppleScript's text item delimiters to oldTIDs",
         "end try",
-        f'if tabName is "{NMPA_WORKER_NAME}" then set workerTab to t',
+        f'if tabName is "{NMPA_WORKER_NAME}" then',
+        "set workerTab to t",
+        "set workerWindow to w",
+        "set workerTabIndex to tabIndex",
+        "end if",
         f'if u contains "{url_part}" then',
         "set score to (scriptsCount * 1000000) + textLen + (titleLen * 10)",
         "if score > bestScore then",
         "set bestScore to score",
         "set targetTab to t",
+        "set targetWindow to w",
+        "set targetTabIndex to tabIndex",
         "end if",
         "end if",
         "end if",
@@ -1486,8 +1509,20 @@ def chrome_target_lines(url_part: str) -> list[str]:
         "end repeat",
     ]
     if url_part in {NMPA_TAB_KEY, NMPA_URL_FILTER}:
-        lines.append("if workerTab is not missing value then set targetTab to workerTab")
+        lines.extend([
+            "if workerTab is not missing value then",
+            "set targetTab to workerTab",
+            "set targetWindow to workerWindow",
+            "set targetTabIndex to workerTabIndex",
+            "end if",
+        ])
     lines.append('if targetTab is missing value then error "NMPA tab not found"')
+    lines.extend([
+        "if targetWindow is not missing value then",
+        "set active tab index of targetWindow to targetTabIndex",
+        "set index of targetWindow to 1",
+        "end if",
+    ])
     return lines
 
 
@@ -1514,6 +1549,8 @@ def ensure_chrome_nmpa_tab() -> None:
             "end tell",
             "end if",
             f'try\nset URL of targetTab to URL of targetTab\nend try',
+            "delay 1",
+            f'try\nexecute targetTab javascript "window.name = \\"{NMPA_WORKER_NAME}\\"; \\"ok\\";"\nend try',
             "end tell",
         ])
     except RuntimeError:
