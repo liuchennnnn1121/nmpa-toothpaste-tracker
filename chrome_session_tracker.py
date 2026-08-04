@@ -1105,6 +1105,11 @@ def extract_preview_links_from_html(html: str) -> list[str]:
     return deduped
 
 
+def preview_link_sort_key(link: str) -> tuple[str, str]:
+    match = re.search(r"[?&]attachmentId=([^&\s]+)", str(link or ""))
+    return (match.group(1) if match else "", str(link or ""))
+
+
 def resolve_preview_to_image_urls(preview_url: str) -> list[str]:
     navigate_tab(NMPA_TAB_KEY, preview_url)
     time.sleep(1.2)
@@ -1280,6 +1285,11 @@ def enrich_row_detail_and_package(row: dict[str, str], month: str, brand: str) -
     item.setdefault("package_preview_links", [])
     item.setdefault("package_detail_pages", [])
     item.setdefault("package_attachment_items", [])
+    existing_preview_links = [
+        str(link or "").strip()
+        for link in (item.get("package_preview_links", []) or [])
+        if str(link or "").strip()
+    ]
     if not detail_url and main_id:
         encoded = base64.b64encode(f"id={main_id}&itemId={SEARCH_ITEM_ID}".encode("utf-8")).decode("utf-8")
         detail_url = f"https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa={encoded}"
@@ -1347,10 +1357,11 @@ def enrich_row_detail_and_package(row: dict[str, str], month: str, brand: str) -
         preview_links = list(
             dict.fromkeys(
                 link
-                for link in (preferred_preview_links + preview_links + fallback_preview_links)
+                for link in (preferred_preview_links + preview_links + fallback_preview_links + existing_preview_links)
                 if link
             )
         )
+        preview_links.sort(key=preview_link_sort_key)
         item["package_preview_links"] = preview_links
         image_urls = list(dict.fromkeys(url for url in image_urls if url))
         package_images: list[str] = []
