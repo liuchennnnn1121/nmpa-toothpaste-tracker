@@ -1643,6 +1643,7 @@ def read_page_state() -> dict[str, object]:
       const totalText = clean((document.querySelector(".el-pagination") || document.body).innerText);
       return JSON.stringify({
         url: location.href,
+        search_key: localStorage.getItem("searchkey") || "",
         page: current ? clean(current.innerText) : "",
         rows: rows,
         has_next: !!(next && !next.disabled && !(next.className || "").includes("is-disabled")),
@@ -1696,18 +1697,41 @@ def wait_for_brand_rows(brand: str, settle_seconds: float, retries: int = 8) -> 
     return last_state
 
 
+def sync_visible_brand_page(brand: str, target_page: str, settle_seconds: float) -> dict[str, object]:
+    target = str(target_page or "1").strip() or "1"
+    visible_settle = min(max(settle_seconds, 0.5), 1.0)
+    try:
+        state = read_page_state()
+        current_brand = str(state.get("search_key", "") or "").strip()
+        current_page = str(state.get("page", "") or "").strip()
+        if current_brand == brand and current_page:
+            if current_page == target:
+                return state
+            if int(current_page or "1") <= int(target or "1"):
+                state = go_to_page_number(target, visible_settle)
+                if str(state.get("page", "") or "").strip() == target:
+                    return state
+    except Exception:
+        pass
+
+    navigate_brand_result(brand)
+    state = wait_for_brand_rows(brand, visible_settle)
+    if target != "1":
+        state = go_to_page_number(target, visible_settle)
+    return state
+
+
 def collect_brand_rows(brand: str, settle_seconds: float, month: str | None = None) -> list[dict[str, str]]:
     all_rows: list[dict[str, str]] = []
     seen_pages: set[int] = set()
     page_num = 1
-    page_size = 20
-    try:
-        navigate_brand_result(brand)
-        time.sleep(min(max(settle_seconds, 0.5), 2.0))
-    except Exception:
-        pass
+    page_size = 10
     while page_num not in seen_pages and page_num <= 60:
         seen_pages.add(page_num)
+        try:
+            sync_visible_brand_page(brand, str(page_num), settle_seconds)
+        except Exception:
+            pass
         payload = nmpa_query_list(brand, page_num, page_size=page_size)
         data = payload.get("data", {}) if isinstance(payload, dict) else {}
         if not isinstance(data, dict):
