@@ -1059,7 +1059,7 @@ HTML_TEMPLATE = """<!doctype html>
         const assets = packageAssets(rows);
         const imgs = assets.imgs;
         const files = assets.files;
-        const previews = assets.previews;
+        const previews = (imgs.length || files.length) ? [] : assets.previews;
         const previewLabel = (src, index) => {
           const matched = assets.attachments.find(item => item.preview_link === src);
           return (matched && (matched.category || matched.row_text)) || `在线预览 ${index + 1}`;

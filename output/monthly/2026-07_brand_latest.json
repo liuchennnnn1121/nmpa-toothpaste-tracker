@@ -39,8 +39,12 @@
           "_page": "2",
           "_page_row_index": "4",
           "_main_id": "1524019222777384960",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_images": [
+            "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_01.png",
+            "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_02.png",
+            "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_03.png"
+          ],
+          "package_info_status": "captured_preview_screenshot",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803255216971776",
@@ -48,7 +52,8 @@
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803816536481792"
           ],
           "package_detail_pages": [],
-          "package_attachment_items": []
+          "package_attachment_items": [],
+          "package_capture_title": "usmile 笑容加-焕白清新（冷萃葡萄）110g-立体图"
         }
       ],
       "spu_groups": [
@@ -72,8 +77,12 @@
               "_page": "2",
               "_page_row_index": "4",
               "_main_id": "1524019222777384960",
-              "package_images": [],
-              "package_info_status": "package_preview_link_detected",
+              "package_images": [
+                "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_01.png",
+                "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_02.png",
+                "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_03.png"
+              ],
+              "package_info_status": "captured_preview_screenshot",
               "package_files": [],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803255216971776",
@@ -82,6 +91,7 @@
               ],
               "package_detail_pages": [],
               "package_attachment_items": [],
+              "package_capture_title": "usmile 笑容加-焕白清新（冷萃葡萄）110g-立体图",
               "spu_name": "usmile笑容加焕白清新牙膏"
             }
           ]
@@ -99,8 +109,12 @@
           "_page": "2",
           "_page_row_index": "4",
           "_main_id": "1524019222777384960",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_images": [
+            "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_01.png",
+            "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_02.png",
+            "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_03.png"
+          ],
+          "package_info_status": "captured_preview_screenshot",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803255216971776",
@@ -108,7 +122,8 @@
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803816536481792"
           ],
           "package_detail_pages": [],
-          "package_attachment_items": []
+          "package_attachment_items": [],
+          "package_capture_title": "usmile 笑容加-焕白清新（冷萃葡萄）110g-立体图"
         }
       ]
     },
