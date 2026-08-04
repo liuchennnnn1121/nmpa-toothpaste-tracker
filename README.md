@@ -62,6 +62,13 @@ python3 toothpaste_tracker_pipeline.py run-month --month 2026-05 --brands brands
 python3 toothpaste_tracker_pipeline.py resume-month --month 2026-05
 ```
 
+以上 `run-month`、`resume-month`、`single-brand` 命令默认都会在完成后自动发布到线上页面。
+如果只想本地更新、不自动上线，可追加：
+
+```bash
+--no-publish
+```
+
 如果只想补某几个品牌：
 
 ```bash
@@ -137,6 +144,8 @@ GitHub Pages 使用 `main` 分支的 `docs/` 目录发布。一键发布脚本�
 ./scripts/publish_site.sh
 ```
 
+如果是通过 `toothpaste_tracker_pipeline.py` 的抓取命令更新数据，默认会自动调用这一步。
+
 如需自定义提交信息：
 
 ```bash
@@ -172,6 +181,7 @@ sh ./automation/install_launchd.sh
 - 每月第一个工作日 12:00
 - 自动抓取“上个月”的全部备案信息
 - 自动重建 `output/brand_dashboard.html`
+- 自动发布到线上页面
 
 ## 说明
 

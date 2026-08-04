@@ -76,8 +76,7 @@ fi
 touch docs/.nojekyll
 
 echo "Staging publishable changes..."
-git add -u
-git add .gitignore README.md scripts/publish_site.sh docs output/*.html output/monthly output/progress
+git add -A -- .gitignore README.md scripts/publish_site.sh docs output/*.html output/monthly output/progress
 
 if git diff --cached --quiet; then
   echo "No publishable changes to commit."
