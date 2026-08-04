@@ -43,6 +43,8 @@ NMPA_TAB_KEY = "codex-tab:nmpa-worker"
 NMPA_WORKER_NAME = "nmpa-worker"
 NMPA_URL_FILTER = "nmpa.gov.cn/datasearch"
 DOWNLOADS_DIR = Path.home() / "Downloads"
+NMPA_RUNTIME_READY = False
+CHROME_BACKGROUND_MODE = os.getenv("NMPA_CHROME_BACKGROUND", "1").lower() not in {"0", "false", "no"}
 
 
 @dataclass
@@ -218,6 +220,7 @@ def safe_name(value: str) -> str:
 
 def run_in_page_world(expression: str, storage_key: str | None = None, poll_seconds: float = 10.0) -> str:
     key = storage_key or f"codex_bridge_{int(time.time() * 1000)}"
+    runtime_tab_key = NMPA_URL_FILTER
     escaped_expr = expression.replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
     script = f"""
     (function(){{
@@ -237,12 +240,12 @@ def run_in_page_world(expression: str, storage_key: str | None = None, poll_seco
       return "started";
     }})()
     """
-    execute_on_tab(NMPA_TAB_KEY, script)
+    execute_on_tab(runtime_tab_key, script)
     deadline = time.time() + poll_seconds
     last_raw = ""
     while time.time() < deadline:
         time.sleep(0.4)
-        raw = execute_on_tab(NMPA_TAB_KEY, f'(function(){{ return localStorage.getItem("{key}") || ""; }})()')
+        raw = execute_on_tab(runtime_tab_key, f'(function(){{ return localStorage.getItem("{key}") || ""; }})()')
         if not raw:
             continue
         last_raw = raw
@@ -250,12 +253,12 @@ def run_in_page_world(expression: str, storage_key: str | None = None, poll_seco
             payload = json.loads(raw)
         except json.JSONDecodeError:
             continue
-        execute_on_tab(NMPA_TAB_KEY, f'(function(){{ localStorage.removeItem("{key}"); return "ok"; }})()')
+        execute_on_tab(runtime_tab_key, f'(function(){{ localStorage.removeItem("{key}"); return "ok"; }})()')
         if not payload.get("ok"):
             raise RuntimeError(str(payload.get("error") or payload))
         value = payload.get("value", "")
         return value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
-    execute_on_tab(NMPA_TAB_KEY, f'(function(){{ localStorage.removeItem("{key}"); return "ok"; }})()')
+    execute_on_tab(runtime_tab_key, f'(function(){{ localStorage.removeItem("{key}"); return "ok"; }})()')
     raise RuntimeError(f"页面脚本执行超时: {last_raw[:200]}")
 
 
@@ -302,7 +305,10 @@ def wait_for_nmpa_ready_page(timeout_seconds: float = 20.0) -> dict[str, object]
     raise RuntimeError(f"NMPA 页面未就绪: {last_state}")
 
 
-def ensure_nmpa_runtime_page() -> None:
+def ensure_nmpa_runtime_page(force: bool = False) -> None:
+    global NMPA_RUNTIME_READY
+    if NMPA_RUNTIME_READY and not force:
+        return
     ensure_chrome_nmpa_tab()
     try:
         state = current_nmpa_page_health()
@@ -317,6 +323,7 @@ def ensure_nmpa_runtime_page() -> None:
                 execute_on_tab(NMPA_URL_FILTER, f'window.name = "{NMPA_WORKER_NAME}"; "ok";')
             except Exception:
                 pass
+            NMPA_RUNTIME_READY = True
             return
     except Exception:
         pass
@@ -326,6 +333,7 @@ def ensure_nmpa_runtime_page() -> None:
         execute_on_tab(NMPA_URL_FILTER, f'window.name = "{NMPA_WORKER_NAME}"; "ok";')
     except Exception:
         pass
+    NMPA_RUNTIME_READY = True
 
 
 def nmpa_api_bootstrap_js() -> str:
@@ -377,9 +385,63 @@ def nmpa_query_list(brand: str, page_num: int, page_size: int = 10) -> dict[str,
     try:
         raw = run_in_page_world(expression, storage_key=f"codex_list_{safe_name(brand)}_{page_num}")
     except RuntimeError:
-        ensure_nmpa_runtime_page()
+        ensure_nmpa_runtime_page(force=True)
         raw = run_in_page_world(expression, storage_key=f"codex_list_{safe_name(brand)}_{page_num}_retry")
     return json.loads(raw) if raw else {}
+
+
+def nmpa_query_brand_rows(brand: str, page_size: int = 10) -> list[dict[str, str]]:
+    ensure_nmpa_runtime_page()
+    expression = f"""(async function(){{
+      const [axiosText, md5Text, base64Text, utilText, apiText, ajaxText] = await Promise.all([
+        fetch('js/axios.min.js').then((r) => r.text()),
+        fetch('js/md5.js').then((r) => r.text()),
+        fetch('js/base64.js').then((r) => r.text()),
+        fetch('js/util.js').then((r) => r.text()),
+        fetch('js/api.js').then((r) => r.text()),
+        fetch('js/ajax.js').then((r) => r.text()),
+      ]);
+      eval(axiosText);
+      eval(md5Text);
+      eval(base64Text);
+      eval(utilText);
+      eval(apiText);
+      eval(ajaxText);
+      if (typeof pajax !== 'object' || typeof api !== 'object' || typeof api.queryList !== 'string') {{
+        throw new Error('nmpa_runtime_not_ready:list_all');
+      }}
+      const pageSize = {int(page_size)};
+      let pageNum = 1;
+      let totalPages = 1;
+      const merged = [];
+      while (pageNum <= totalPages && pageNum <= 120) {{
+        const resp = await pajax.hasTokenGet(api.queryList, {{
+          itemId: {json.dumps(SEARCH_ITEM_ID)},
+          isSenior: 'N',
+          searchValue: {json.dumps(brand)},
+          pageNum,
+          pageSize
+        }});
+        const payload = (resp && resp.data) ? resp.data : {{}};
+        const data = (payload && payload.data) ? payload.data : {{}};
+        const rows = Array.isArray(data.list) ? data.list : [];
+        const total = Number(data.total || 0);
+        totalPages = Math.max(1, Math.ceil(total / pageSize));
+        for (const row of rows) {{
+          if (row && typeof row === 'object') merged.push(row);
+        }}
+        if (!rows.length) break;
+        pageNum += 1;
+      }}
+      return JSON.stringify(merged);
+    }})()"""
+    try:
+        raw = run_in_page_world(expression, storage_key=f"codex_list_all_{safe_name(brand)}", poll_seconds=60.0)
+    except RuntimeError:
+        ensure_nmpa_runtime_page(force=True)
+        raw = run_in_page_world(expression, storage_key=f"codex_list_all_{safe_name(brand)}_retry", poll_seconds=60.0)
+    data = json.loads(raw) if raw else []
+    return data if isinstance(data, list) else []
 
 
 def nmpa_query_detail(main_id: str) -> dict[str, object]:
@@ -411,7 +473,7 @@ def nmpa_query_detail(main_id: str) -> dict[str, object]:
     try:
         raw = run_in_page_world(expression, storage_key=f"codex_detail_{safe_name(main_id)}")
     except RuntimeError:
-        ensure_nmpa_runtime_page()
+        ensure_nmpa_runtime_page(force=True)
         raw = run_in_page_world(expression, storage_key=f"codex_detail_{safe_name(main_id)}_retry")
     return json.loads(raw) if raw else {}
 
@@ -1455,6 +1517,7 @@ def js(value: str) -> str:
 
 
 def chrome_target_lines(url_part: str) -> list[str]:
+    match_part = NMPA_URL_FILTER if url_part == NMPA_TAB_KEY else url_part
     probe_script = js(
         '(function(){'
         'var text=(document.body&&document.body.innerText)?String(document.body.innerText).trim():"";'
@@ -1466,14 +1529,13 @@ def chrome_target_lines(url_part: str) -> list[str]:
     )
     lines = [
         'tell application "Google Chrome"',
-        "set targetTab to missing value",
-        "set targetWindow to missing value",
+        "set targetWindowIndex to 0",
         "set targetTabIndex to 0",
-        "set workerTab to missing value",
-        "set workerWindow to missing value",
+        "set workerWindowIndex to 0",
         "set workerTabIndex to 0",
         "set bestScore to -1",
-        "repeat with w in windows",
+        "repeat with windowIndex from 1 to (count of windows)",
+        "set w to window windowIndex",
         "repeat with tabIndex from 1 to (count of tabs of w)",
         "set t to tab tabIndex of w",
         "set u to URL of t",
@@ -1482,10 +1544,6 @@ def chrome_target_lines(url_part: str) -> list[str]:
         "set textLen to 0",
         "set titleLen to 0",
         'set tabName to ""',
-        "try",
-        "set active tab index of w to tabIndex",
-        "set index of w to 1",
-        "end try",
         "try",
         f'set probe to execute t javascript "{probe_script}"',
         "set oldTIDs to AppleScript's text item delimiters",
@@ -1502,16 +1560,14 @@ def chrome_target_lines(url_part: str) -> list[str]:
         "set AppleScript's text item delimiters to oldTIDs",
         "end try",
         f'if tabName is "{NMPA_WORKER_NAME}" then',
-        "set workerTab to t",
-        "set workerWindow to w",
+        "set workerWindowIndex to windowIndex",
         "set workerTabIndex to tabIndex",
         "end if",
-        f'if u contains "{url_part}" then',
+        f'if u contains "{match_part}" then',
         "set score to (scriptsCount * 1000000) + textLen + (titleLen * 10)",
         "if score > bestScore then",
         "set bestScore to score",
-        "set targetTab to t",
-        "set targetWindow to w",
+        "set targetWindowIndex to windowIndex",
         "set targetTabIndex to tabIndex",
         "end if",
         "end if",
@@ -1521,19 +1577,29 @@ def chrome_target_lines(url_part: str) -> list[str]:
     ]
     if url_part in {NMPA_TAB_KEY, NMPA_URL_FILTER}:
         lines.extend([
-            "if workerTab is not missing value then",
-            "set targetTab to workerTab",
-            "set targetWindow to workerWindow",
+            "if workerWindowIndex is greater than 0 then",
+            "set targetWindowIndex to workerWindowIndex",
             "set targetTabIndex to workerTabIndex",
             "end if",
         ])
-    lines.append('if targetTab is missing value then error "NMPA tab not found"')
+    lines.append('if targetWindowIndex is 0 or targetTabIndex is 0 then error "NMPA tab not found"')
     lines.extend([
-        "if targetWindow is not missing value then",
-        "set active tab index of targetWindow to targetTabIndex",
-        "set index of targetWindow to 1",
+        "set targetWindow to window targetWindowIndex",
+        "set tabCount to count of tabs of targetWindow",
+        "if targetTabIndex > tabCount then",
+        "if tabCount is 0 then error \"NMPA tab not found\"",
+        "set targetTabIndex to active tab index of targetWindow",
+        "if targetTabIndex is 0 or targetTabIndex > tabCount then set targetTabIndex to 1",
         "end if",
     ])
+    if CHROME_BACKGROUND_MODE:
+        lines.append("set targetTab to tab targetTabIndex of targetWindow")
+    else:
+        lines.extend([
+            "set active tab index of targetWindow to targetTabIndex",
+            "set index of targetWindow to 1",
+            "set targetTab to active tab of targetWindow",
+        ])
     return lines
 
 
@@ -1555,7 +1621,7 @@ def ensure_chrome_nmpa_tab() -> None:
             "if targetTab is not missing value then exit repeat",
             "end repeat",
             "if targetTab is missing value then",
-            'tell front window',
+            'tell window 1',
             f'set targetTab to make new tab with properties {{URL:"{js(HOME_INDEX_URL)}"}}',
             "end tell",
             "end if",
@@ -1569,7 +1635,7 @@ def ensure_chrome_nmpa_tab() -> None:
             'tell application "Google Chrome"',
             "if not running then launch",
             "make new window",
-            'tell front window',
+            'tell window 1',
             f'set targetTab to make new tab with properties {{URL:"{js(HOME_INDEX_URL)}"}}',
             "end tell",
             "end tell",
@@ -1724,47 +1790,29 @@ def sync_visible_brand_page(brand: str, target_page: str, settle_seconds: float)
 
 def collect_brand_rows(brand: str, settle_seconds: float, month: str | None = None) -> list[dict[str, str]]:
     all_rows: list[dict[str, str]] = []
-    seen_pages: set[int] = set()
-    page_num = 1
     page_size = 10
-    while page_num not in seen_pages and page_num <= 60:
-        seen_pages.add(page_num)
-        try:
-            sync_visible_brand_page(brand, str(page_num), settle_seconds)
-        except Exception:
-            pass
-        payload = nmpa_query_list(brand, page_num, page_size=page_size)
-        data = payload.get("data", {}) if isinstance(payload, dict) else {}
-        if not isinstance(data, dict):
-            break
-        page_rows_raw = data.get("list", []) or []
-        total = int(data.get("total", 0) or 0)
-        total_pages = max(1, (total + page_size - 1) // page_size)
-        page_rows: list[dict[str, str]] = []
-        for index, raw_row in enumerate(page_rows_raw, start=1):
-            if not isinstance(raw_row, dict):
-                continue
-            page_row = {
-                "seq": str((page_num - 1) * page_size + index),
-                "product_name": str(raw_row.get("f0", "") or ""),
-                "filing_no": str(raw_row.get("f1", "") or ""),
-                "filing_date": str(raw_row.get("f2", "") or ""),
-                "filer": str(raw_row.get("f3", "") or ""),
-                "detail": "详情",
-                "detail_url": "",
-                "_page": str(page_num),
-                "_page_row_index": str(index),
-                "_main_id": str(raw_row.get("f4", "") or ""),
-            }
-            if page_row["product_name"]:
-                page_rows.append(page_row)
-        if month:
-            all_rows.extend([row for row in page_rows if filing_month(row.get("filing_date", "")) == month])
-        else:
-            all_rows.extend(page_rows)
-        if page_num >= total_pages or not page_rows:
-            break
-        page_num += 1
+    raw_rows = nmpa_query_brand_rows(brand, page_size=page_size)
+    for overall_index, raw_row in enumerate(raw_rows, start=1):
+        if not isinstance(raw_row, dict):
+            continue
+        page_num = ((overall_index - 1) // page_size) + 1
+        page_row = {
+            "seq": str(overall_index),
+            "product_name": str(raw_row.get("f0", "") or ""),
+            "filing_no": str(raw_row.get("f1", "") or ""),
+            "filing_date": str(raw_row.get("f2", "") or ""),
+            "filer": str(raw_row.get("f3", "") or ""),
+            "detail": "详情",
+            "detail_url": "",
+            "_page": str(page_num),
+            "_page_row_index": str(((overall_index - 1) % page_size) + 1),
+            "_main_id": str(raw_row.get("f4", "") or ""),
+        }
+        if not page_row["product_name"]:
+            continue
+        if month and filing_month(page_row.get("filing_date", "")) != month:
+            continue
+        all_rows.append(page_row)
     dedup: dict[tuple[str, str, str, str], dict[str, str]] = {}
     for row in all_rows:
         key = (
