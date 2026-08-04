@@ -1056,12 +1056,18 @@ HTML_TEMPLATE = """<!doctype html>
       `;
 
       const renderPackageSection = (rows, contextTitle) => {
-        const imgs = [...new Set((rows || []).flatMap(row => row.package_images || []).filter(Boolean))];
-        const files = [...new Set((rows || []).flatMap(row => row.package_files || []).filter(Boolean))];
-        if (!imgs.length && !files.length) return `<div class="package-empty">暂无产品包装信息</div>`;
+        const assets = packageAssets(rows);
+        const imgs = assets.imgs;
+        const files = assets.files;
+        const previews = assets.previews;
+        const previewLabel = (src, index) => {
+          const matched = assets.attachments.find(item => item.preview_link === src);
+          return (matched && (matched.category || matched.row_text)) || `在线预览 ${index + 1}`;
+        };
+        if (!imgs.length && !files.length && !previews.length) return `<div class="package-empty">暂无产品包装信息</div>`;
         return `
           <div class="package-toolbar">
-            <div class="meta">共 ${imgs.length} 张图片${files.length ? ` · ${files.length} 个原始PDF` : ""}</div>
+            <div class="meta">共 ${imgs.length} 张图片${files.length ? ` · ${files.length} 个原始PDF` : ""}${previews.length ? ` · ${previews.length} 个在线预览` : ""}</div>
             <div class="meta">${files.map(src => `<a class="icon-link" href="${esc(assetHref(src))}" target="_blank" rel="noopener noreferrer" title="打开原始PDF">PDF</a>`).join(" ")}</div>
           </div>
           <div class="package-grid">
@@ -1081,6 +1087,14 @@ HTML_TEMPLATE = """<!doctype html>
                 <div class="package-caption mono-path">${esc(src)}</div>
               </a>
             `).join("")}
+            ${previews.map((src, index) => `
+              <a class="package-card" href="${esc(assetHref(src))}" target="_blank" rel="noopener noreferrer">
+                <span class="package-index">预览 ${index + 1}</span>
+                <div class="package-stage pdf-stage">在线预览</div>
+                <div class="package-caption">${esc(previewLabel(src, index))}</div>
+                <div class="package-caption mono-path">${esc(src)}</div>
+              </a>
+            `).join("")}
           </div>
           <div class="overlay-note">来源：${esc(contextTitle || "包装信息")}，图片可点击放大查看。</div>
         `;
@@ -1091,6 +1105,8 @@ HTML_TEMPLATE = """<!doctype html>
         return {
           imgs: [...new Set(sourceRows.flatMap(row => row.package_images || []).filter(Boolean))],
           files: [...new Set(sourceRows.flatMap(row => row.package_files || []).filter(Boolean))],
+          previews: [...new Set(sourceRows.flatMap(row => row.package_preview_links || []).filter(Boolean))],
+          attachments: sourceRows.flatMap(row => row.package_attachment_items || []).filter(item => item && item.preview_link),
         };
       };
 
@@ -1105,12 +1121,16 @@ HTML_TEMPLATE = """<!doctype html>
       `;
       const packageInline = (rows, label) => {
         const assets = packageAssets(rows);
-        if (!assets.imgs.length && !assets.files.length) {
+        if (!assets.imgs.length && !assets.files.length && !assets.previews.length) {
           return `<span class="inline-status empty">暂无包装信息</span>`;
         }
+        const counts = [];
+        if (assets.imgs.length) counts.push(`${assets.imgs.length} 张图`);
+        if (assets.files.length) counts.push(`${assets.files.length} PDF`);
+        if (assets.previews.length) counts.push(`${assets.previews.length} 个预览`);
         return `
           <div class="package-cell">
-            <span class="inline-status ok">${assets.imgs.length} 张图${assets.files.length ? ` · ${assets.files.length} PDF` : ""}</span>
+            <span class="inline-status ok">${counts.join(" · ")}</span>
             ${packageTrigger(rows, label)}
           </div>
         `;
@@ -1203,7 +1223,7 @@ HTML_TEMPLATE = """<!doctype html>
           const label = button.dataset.packageLabel || "包装信息";
           const rows = JSON.parse(decodeURIComponent(button.dataset.packageRows || "%5B%5D"));
           const assets = packageAssets(rows);
-          const content = (assets.imgs.length || assets.files.length)
+          const content = (assets.imgs.length || assets.files.length || assets.previews.length)
             ? renderPackageSection(rows, label)
             : `<div class="package-empty">暂无产品包装信息</div>`;
           packageOverlaySub.textContent = label;
