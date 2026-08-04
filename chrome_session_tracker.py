@@ -1584,6 +1584,7 @@ def execute_on_tab(url_part: str, script: str) -> str:
 
 
 def navigate_brand_result(brand: str) -> None:
+    ensure_chrome_nmpa_tab()
     script = (
         "(function(){"
         f'localStorage.setItem("searchkey", "{brand}");'
