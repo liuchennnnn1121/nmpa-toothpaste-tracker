@@ -1080,7 +1080,7 @@ def inspect_preview_page_image_urls(preview_url: str, return_url: str, settle_se
     return image_urls
 
 
-def fetch_child_html(child_url: str) -> str:
+def fetch_child_html(child_url: str, return_url: str | None = None) -> str:
     navigate_tab(NMPA_TAB_KEY, child_url)
     time.sleep(1.0)
     script = """
@@ -1091,7 +1091,7 @@ def fetch_child_html(child_url: str) -> str:
     try:
         return execute_on_tab(NMPA_TAB_KEY, script)
     finally:
-        navigate_tab(NMPA_TAB_KEY, HOME_INDEX_URL)
+        navigate_tab(NMPA_TAB_KEY, return_url or HOME_INDEX_URL)
         time.sleep(0.8)
 
 
@@ -1110,7 +1110,7 @@ def preview_link_sort_key(link: str) -> tuple[str, str]:
     return (match.group(1) if match else "", str(link or ""))
 
 
-def resolve_preview_to_image_urls(preview_url: str) -> list[str]:
+def resolve_preview_to_image_urls(preview_url: str, return_url: str | None = None) -> list[str]:
     navigate_tab(NMPA_TAB_KEY, preview_url)
     time.sleep(1.2)
     script = """
@@ -1149,7 +1149,7 @@ def resolve_preview_to_image_urls(preview_url: str) -> list[str]:
         raw = execute_on_tab(NMPA_TAB_KEY, script)
         return json.loads(raw) if raw else []
     finally:
-        navigate_tab(NMPA_TAB_KEY, HOME_INDEX_URL)
+        navigate_tab(NMPA_TAB_KEY, return_url or HOME_INDEX_URL)
         time.sleep(0.8)
 
 
@@ -1331,7 +1331,7 @@ def enrich_row_detail_and_package(row: dict[str, str], month: str, brand: str) -
             image_urls = list(child_data.get("image_urls", []) or [])
             if not preview_links:
                 try:
-                    child_html = fetch_child_html(child_url)
+                    child_html = fetch_child_html(child_url, detail_url)
                 except Exception:
                     child_html = ""
                 preview_links = list(dict.fromkeys(preview_links + extract_preview_links_from_html(child_html)))
@@ -1369,7 +1369,7 @@ def enrich_row_detail_and_package(row: dict[str, str], month: str, brand: str) -
         resolved_image_urls: list[str] = []
         for preview_url in preview_links:
             try:
-                resolved_image_urls.extend(resolve_preview_to_image_urls(preview_url))
+                resolved_image_urls.extend(resolve_preview_to_image_urls(preview_url, detail_url))
             except Exception:
                 continue
         candidate_downloads = list(dict.fromkeys(image_urls + resolved_image_urls + preview_links))
@@ -1701,6 +1701,11 @@ def collect_brand_rows(brand: str, settle_seconds: float, month: str | None = No
     seen_pages: set[int] = set()
     page_num = 1
     page_size = 20
+    try:
+        navigate_brand_result(brand)
+        time.sleep(min(max(settle_seconds, 0.5), 2.0))
+    except Exception:
+        pass
     while page_num not in seen_pages and page_num <= 60:
         seen_pages.add(page_num)
         payload = nmpa_query_list(brand, page_num, page_size=page_size)
