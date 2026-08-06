@@ -1,0 +1,2701 @@
+{
+  "brand": "usmile / 笑容加",
+  "as_of": "2026-08-06",
+  "captured_at": "2026-08-06T10:33:10+08:00",
+  "source": {
+    "name": "国家药品监督管理局数据查询 - 国产牙膏备案信息",
+    "url": "https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp",
+    "main_item_id": "ff8080818e63c900018e787bc48d0598",
+    "queries": [
+      "usmile",
+      "笑容加"
+    ]
+  },
+  "method": {
+    "query": "以 usmile 与 笑容加 两个关键词检索，按备案编号去重；同一备案编号多主键时选择详情/成分/包装信息更完整的记录。",
+    "factory_counting": "加工厂维度按生产企业字段中带生产地址或生产许可证的企业统计；无生产企业详情的产品归为未公示/详情为空。"
+  },
+  "monthly_trend": [
+    {
+      "month": "2026-01",
+      "filing_count": 5
+    },
+    {
+      "month": "2026-02",
+      "filing_count": 3
+    },
+    {
+      "month": "2026-03",
+      "filing_count": 6
+    },
+    {
+      "month": "2026-04",
+      "filing_count": 7
+    },
+    {
+      "month": "2026-05",
+      "filing_count": 0
+    },
+    {
+      "month": "2026-06",
+      "filing_count": 1
+    },
+    {
+      "month": "2026-07",
+      "filing_count": 1
+    },
+    {
+      "month": "2026-08",
+      "filing_count": 0
+    }
+  ],
+  "products": [
+    {
+      "month": "2026-07",
+      "filing_date": "2026-07-09",
+      "product_name": "usmile笑容加焕白清新牙膏（冷萃葡萄）焕新版",
+      "filing_no": "粤国牙膏网备字2026003196",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "",
+      "factories": [],
+      "manufacturing_factories": [],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、丙二醇、甘油、月桂醇硫酸酯钠、香精、六偏磷酸钠、单氟磷酸钠（0.11%，以氟计）、三聚磷酸五钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、甘露糖醇、月桂酰肌氨酸钠、甘氨酸锌、三氯半乳糖",
+      "trace_ingredients": "苹果（MALUS DOMESTICA）果提取物、木瓜蛋白酶、溶菌酶、微晶纤维素、玉米（ZEA MAYS）淀粉、羟丙基甲基纤维素、黄原胶、聚山梨醇酯-80、辛甘醇、云母、CI 77891、CI 73360、CI 17200、CI 74160",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "三年；生产批号和限期使用日期：见包装",
+      "storage": "",
+      "claims": "",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803816536481792",
+          "attachment_id": "1524803816536481792"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803420619350016",
+          "attachment_id": "1524803420619350016"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803255216971776",
+          "attachment_id": "1524803255216971776"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803816536481792",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803420619350016",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803255216971776"
+      ],
+      "existing_package_images": [
+        "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_01.png",
+        "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_02.png",
+        "package_images/2026-07/笑容加/粤国牙膏网备字2026003196/package_capture_03.png"
+      ],
+      "selected_main_id": "1524019222777384960",
+      "candidate_main_ids": [
+        "1524019222777384960"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyNDAxOTIyMjc3NzM4NDk2MCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_01_1524803255216971776.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803255216971776",
+      "preview_3d_attachment_id": "1524803255216971776"
+    },
+    {
+      "month": "2026-06",
+      "filing_date": "2026-06-12",
+      "product_name": "usmile笑容加焕白清新牙膏（山野脆苹）焕新版",
+      "filing_no": "粤国牙膏网备字2026002742",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、甘油、丙二醇、月桂醇硫酸酯钠、香精、六偏磷酸钠、单氟磷酸钠（0.11%，以氟计）、三聚磷酸五钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、甘露糖醇、甘氨酸锌、月桂酰肌氨酸钠、三氯半乳糖",
+      "trace_ingredients": "苹果（MALUS DOMESTICA）果提取物、木瓜蛋白酶、溶菌酶、微晶纤维素、玉米（ZEA MAYS）淀粉、羟丙基甲基纤维素、黄原胶、云母、CI 77891、CI 77492、CI 74260、CI 16035",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "三年；生产批号和限期使用日期：见包装",
+      "storage": "",
+      "claims": "",
+      "package_items": [],
+      "package_preview_links": [],
+      "existing_package_images": [],
+      "selected_main_id": "1521625366316187648",
+      "candidate_main_ids": [
+        "1521625366316187648",
+        "1514576076230586368"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyMTYyNTM2NjMxNjE4NzY0OCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": []
+    },
+    {
+      "month": "2026-04",
+      "filing_date": "2026-04-30",
+      "product_name": "usmile笑容加修护防蛀儿童牙膏（沁甜草莓）",
+      "filing_no": "粤国牙膏网备字2026001949",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "甘油、焦磷酸钙、水合硅石、硅酸钙、丙二醇、磷硅酸钙、聚乙二醇-8、羟乙基纤维素、食用香精（料）、单氟磷酸钠（0.1%,以氟计）、硅石、聚乙烯呲咯烷酮、月桂酰肌氨酸钠、糖脂、甘油磷酸钙、甲基椰油酰基牛磺酸钠",
+      "trace_ingredients": "三氯半乳糖、CI 12490",
+      "usage": "本产品使用无水配方，建议挤出膏体后不蘸水直接刷牙，以达最佳效果。每天使用本产品刷牙两次。建议3岁-6岁儿童使用豌豆大小的牙膏，6岁及以上儿童建议使用黄豆大小的牙膏。刷牙后吐出，并用清水漱口。",
+      "warnings": "儿童请在成人监护下使用，避免误食误用；含单氟磷酸钠。沁甜草莓为香型，本产品不可吞食。",
+      "shelf_life": "2.5年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504513500164202496",
+          "attachment_id": "C468F6E9C7674940A9C5B8244D4010F9"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1499374189341122560",
+          "attachment_id": "66A994D21F184BAA9CAA1DDE347BF38D"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504513568367779840",
+          "attachment_id": "62D9F42FAA1841038010435ECDA784B1"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504513500164202496",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1499374189341122560",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504513568367779840"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1498643527570518016",
+      "candidate_main_ids": [
+        "1507082651939373056",
+        "1498643527570518016"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ5ODY0MzUyNzU3MDUxODAxNiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "no_click_link",
+      "preview_3d_image": "",
+      "preview_3d_source_link": "",
+      "preview_3d_attachment_id": "62D9F42FAA1841038010435ECDA784B1"
+    },
+    {
+      "month": "2026-04",
+      "filing_date": "2026-04-17",
+      "product_name": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）",
+      "filing_no": "粤国牙膏网备字2026001605",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、木糖醇、聚乙二醇-8、丙二醇、食用香精（料）、单氟磷酸钠、羟乙基纤维素、焦磷酸四钠、月桂酰肌氨酸钠、纤维素胶、甘露糖醇、皱波角叉菜（CHONDRUS CRISPUS）、糖脂",
+      "trace_ingredients": "奥拉氟、木瓜蛋白酶、溶菌酶、葡聚糖酶、草莓（FRAGARIA CHILOENSIS）果提取物、玉米（ZEA MAYS）淀粉、微晶纤维素、羟丙基甲基纤维素、硼硅酸铝钙、硅石、丁二醇、氧化锡、CI 77891、CI 77491、CI 16035、CI 19140",
+      "usage": "每天使用本产品刷牙两次。建议3岁-6岁儿童使用豌豆大小的牙膏，6岁及以上儿童建议使用黄豆大小的牙膏。刷牙后吐出，并用清水漱口。",
+      "warnings": "儿童请在成人监护下使用，避免误食误用；含奥拉氟和单氟磷酸钠，含氟量0.09%（以氟计）。",
+      "shelf_life": "三年;生产批号和限期使用日期：见包装",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1503805846752141312",
+          "attachment_id": "D983CE6F98BE4356AFAB01F16E0B957F"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494763705820323840",
+          "attachment_id": "D12792438D9348D38D97F1798357566E"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494774080112500736",
+          "attachment_id": "CDFF782302C840B781A2C0A1B8739EF4"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494763528749391872",
+          "attachment_id": "7FC87B888BDC485CA060691D9DC0DF11"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1503807741252149248",
+          "attachment_id": "3FE9AFAA5F9146A2AE854F3C5867F14A"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1503805846752141312",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494763705820323840",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494774080112500736",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494763528749391872",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1503807741252149248"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1494743481141248000",
+      "candidate_main_ids": [
+        "1506412849109401600",
+        "1494743481141248000"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ5NDc0MzQ4MTE0MTI0ODAwMCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "no_click_link",
+      "preview_3d_image": "",
+      "preview_3d_source_link": "",
+      "preview_3d_attachment_id": "D12792438D9348D38D97F1798357566E"
+    },
+    {
+      "month": "2026-04",
+      "filing_date": "2026-04-16",
+      "product_name": "usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版",
+      "filing_no": "粤国牙膏网备字2026001485",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；企业名称：广东省九科生物科技有限公司 ，企业地址：佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报） ，生产地址：佛山三水工业园区大塘园兴唐路13号之二F3二层、三层 ，生产许可证：粤妆20210095；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、甘油、丙二醇、月桂醇硫酸酯钠、食用香精（料）、六偏磷酸钠、单氟磷酸钠（0.11%，以氟计）、三聚磷酸五钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、甘露糖醇、甘氨酸锌、月桂酰肌氨酸钠、三氯半乳糖",
+      "trace_ingredients": "葡聚糖酶、溶菌酶、苹果（MALUS DOMESTICA）果提取物、山茶（CAMELLIA JAPONICA）花提取物、黄原胶、微晶纤维素、玉米（ZEA MAYS）淀粉、羟丙基甲基纤维素、云母、CI 77891、CI 77492、CI 73360、CI 16035",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379755292008448",
+          "attachment_id": "1498379755292008448"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379728410714112",
+          "attachment_id": "1498379728410714112"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498373376090046464",
+          "attachment_id": "1498373376090046464"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379755292008448",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379728410714112",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498373376090046464"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1498373365453508608",
+      "candidate_main_ids": [
+        "1512492355129704448",
+        "1509486831329435648",
+        "1498373365453508608"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ5ODM3MzM2NTQ1MzUwODYwOCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_05_1498379755292008448.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379755292008448",
+      "preview_3d_attachment_id": "1498379755292008448"
+    },
+    {
+      "month": "2026-04",
+      "filing_date": "2026-04-15",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）焕新版",
+      "filing_no": "粤国牙膏网备字2026001696",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、丙二醇、聚乙二醇-8、月桂醇硫酸酯钠、食用香精（料）、单氟磷酸钠（0.11%，以氟计）、六偏磷酸钠、皱波角叉菜（CHONDRUS CRISPUS）、焦磷酸二氢二钠、黄原胶、三氯半乳糖",
+      "trace_ingredients": "葡糖氧化酶、葡聚糖酶、聚赖氨酸、抗坏血酸（维生素C）、硅石、结冷胶、甘油、山梨酸钾、硼硅酸铝钙、氧化锡、聚山梨醇酯-80、苯氧乙醇、辛甘醇、CI 77891、CI 74160、CI 17200",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328",
+          "attachment_id": "5E1E8CA77F8B4842B50006B1B22A7BB1"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832",
+          "attachment_id": "1310CF59E9274219B695442B4533090F"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664",
+          "attachment_id": "10777D3C4A844184A6294975449FB565"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1507441616246763520",
+      "candidate_main_ids": [
+        "1510049551531114496",
+        "1507441616246763520"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUwNzQ0MTYxNjI0Njc2MzUyMCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "no_click_link",
+      "preview_3d_image": "",
+      "preview_3d_source_link": "",
+      "preview_3d_attachment_id": "10777D3C4A844184A6294975449FB565"
+    },
+    {
+      "month": "2026-04",
+      "filing_date": "2026-04-15",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版",
+      "filing_no": "粤国牙膏网备字2026001692",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、丙二醇、月桂醇硫酸酯钠、食用香精（料）、单氟磷酸钠（0.11%，以氟计）、六偏磷酸钠、皱波角叉菜（CHONDRUS CRISPUS）、焦磷酸二氢二钠、黄原胶、三氯半乳糖",
+      "trace_ingredients": "葡糖氧化酶、葡聚糖酶、聚赖氨酸、抗坏血酸（维生素C）、硅石、结冷胶、甘油、山梨酸钾、硼硅酸铝钙、氧化锡、CI 77891、CI 16035、CI 19140",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494029306866769920",
+          "attachment_id": "1494029306866769920"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016840053104640",
+          "attachment_id": "1494016840053104640"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016562893496320",
+          "attachment_id": "1494016562893496320"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494029306866769920",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016840053104640",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016562893496320"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1493620499161501696",
+      "candidate_main_ids": [
+        "1496830783057297408",
+        "1493620499161501696"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ5MzYyMDQ5OTE2MTUwMTY5NiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_07_1494029306866769920.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494029306866769920",
+      "preview_3d_attachment_id": "1494029306866769920"
+    },
+    {
+      "month": "2026-04",
+      "filing_date": "2026-04-10",
+      "product_name": "usmile笑容加焕白清新牙膏（云上葡萄）焕彩版",
+      "filing_no": "粤国牙膏网备字2026001484",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "",
+      "trace_ingredients": "",
+      "usage": "",
+      "warnings": "",
+      "shelf_life": "",
+      "storage": "",
+      "claims": "",
+      "package_items": [],
+      "package_preview_links": [],
+      "existing_package_images": [],
+      "selected_main_id": "1502397146723254272",
+      "candidate_main_ids": [
+        "1502397146723254272",
+        "1498742195510005760"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUwMjM5NzE0NjcyMzI1NDI3MiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": []
+    },
+    {
+      "month": "2026-04",
+      "filing_date": "2026-04-03",
+      "product_name": "usmile笑容加双管美白精华牙膏（月下铃兰）",
+      "filing_no": "粤国牙膏网备字2026001572",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "1,3-丙二醇、水合硅石、焦磷酸钙、糖脂、单过硫酸氢钾复合盐、焦磷酸四钠、聚乙烯吡咯烷酮、羟乙基纤维素、月桂醇硫酸酯钠、香精、硅石、糖精钠、过二硫酸钾、硫酸氢钾",
+      "trace_ingredients": "碳酸镁",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出,并用清水漱口。本产品可适用于普通牙刷和电动牙刷;推荐搭配电动牙刷使用,效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠和单过硫酸氢钾复合盐，本产品不适用于儿童。建议开启后3个月内尽快用完。",
+      "shelf_life": "2.5年；生产批号和限期使用日期：见包装",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848",
+          "attachment_id": "1489684073802702848"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080",
+          "attachment_id": "1489683993934766080"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520",
+          "attachment_id": "1489682678957547520"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1489622142722469888",
+      "candidate_main_ids": [
+        "1496273607280558080",
+        "1489622142722469888"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4OTYyMjE0MjcyMjQ2OTg4OCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_09_1489682678957547520.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520",
+      "preview_3d_attachment_id": "1489682678957547520"
+    },
+    {
+      "month": "2026-03",
+      "filing_date": "2026-03-31",
+      "product_name": "usmile笑容加抗敏修白牙膏（白花柚香）",
+      "filing_no": "粤国牙膏网备字2026001571",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东省九科生物科技有限公司 ，企业地址：佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报） ，生产地址：佛山三水工业园区大塘园兴唐路13号之二F3二层、三层 ，生产许可证：粤妆20210095；企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、硝酸钾、聚乙二醇-8、月桂醇硫酸酯钠、甘油、单氟磷酸钠（0.145%，以氟计）、食用香精（料）、聚乙烯吡咯烷酮、羟基磷灰石、羟乙基纤维素、焦磷酸四钠、纤维素胶、植酸钠、月桂酰肌氨酸钠、糖精钠、CI 77891",
+      "trace_ingredients": "CI 12490、CI 74160",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 抗牙本质敏感, 清洁；防龋, 抗牙本质敏感, 清洁",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606999633534976",
+          "attachment_id": "1488606999633534976"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606909254672384",
+          "attachment_id": "1488606909254672384"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606877772226560",
+          "attachment_id": "1488606877772226560"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606999633534976",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606909254672384",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606877772226560"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1496273565610147840",
+      "candidate_main_ids": [
+        "1496273565610147840",
+        "1488576722177060864"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4ODU3NjcyMjE3NzA2MDg2NCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_10_1488606909254672384.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606909254672384",
+      "preview_3d_attachment_id": "1488606909254672384"
+    },
+    {
+      "month": "2026-03",
+      "filing_date": "2026-03-18",
+      "product_name": "usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）",
+      "filing_no": "粤国牙膏网备字2026000965",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东省九科生物科技有限公司 ，企业地址：佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报） ，生产地址：佛山三水工业园区大塘园兴唐路13号之二F3二层、三层 ，生产许可证：粤妆20210095；企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、焦磷酸钙、甘油、月桂醇硫酸酯钠、香精、单氟磷酸钠（0.11%，以氟计）、六偏磷酸钠、焦磷酸四钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、糖脂、三氯半乳糖、炭粉、黄原胶、甘露糖醇",
+      "trace_ingredients": "木瓜蛋白酶、溶菌酶、葡聚糖酶、云母、乙基纤维素、硅石、羟丙基甲基纤维素、丁二醇、CI 17200、CI 42090",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483871467884060672",
+          "attachment_id": "1483871467884060672"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483871419519541248",
+          "attachment_id": "1483871419519541248"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483865736875155456",
+          "attachment_id": "1483865736875155456"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483871467884060672",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483871419519541248",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483865736875155456"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1481594024929480704",
+      "candidate_main_ids": [
+        "1489319752026292224",
+        "1481594024929480704"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4MTU5NDAyNDkyOTQ4MDcwNCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_11_1483871419519541248.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483871419519541248",
+      "preview_3d_attachment_id": "1483871419519541248"
+    },
+    {
+      "month": "2026-03",
+      "filing_date": "2026-03-13",
+      "product_name": "usmile笑容加防渍锁白牙膏（晨露桂雨）",
+      "filing_no": "粤国牙膏网备字2026000830",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东省九科生物科技有限公司 ，企业地址：佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报） ，生产地址：佛山三水工业园区大塘园兴唐路13号之二F3二层、三层 ，生产许可证：粤妆20210095；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "水、山梨（糖）醇、水合硅石、聚乙二醇-8、月桂醇硫酸酯钠、食用香精（料）、焦磷酸二氢二钠、单氟磷酸钠（0.11%，以氟计）、纤维素胶、焦磷酸四钠、CI 77891、皱波角叉菜（CHONDRUS CRISPUS）、月桂酰肌氨酸钠、苯甲酸钠、糖精钠、聚乙烯吡咯烷酮",
+      "trace_ingredients": "",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处。含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年；生产批号和限期使用日期：见包装",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1486400891892342784",
+          "attachment_id": "1486400891892342784"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1486400833922867200",
+          "attachment_id": "1486400833922867200"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482067669561712640",
+          "attachment_id": "1482067669561712640"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1486400891892342784",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1486400833922867200",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482067669561712640"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1480996975976869888",
+      "candidate_main_ids": [
+        "1488947904956596224",
+        "1480996975976869888"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4MDk5Njk3NTk3Njg2OTg4OCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_12_1486400891892342784.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1486400891892342784",
+      "preview_3d_attachment_id": "1486400891892342784"
+    },
+    {
+      "month": "2026-03",
+      "filing_date": "2026-03-13",
+      "product_name": "usmile笑容加专研清新牙膏（冰萃薄荷）",
+      "filing_no": "粤国牙膏网备字2026000829",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东省九科生物科技有限公司 ，企业地址：佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报） ，生产地址：佛山三水工业园区大塘园兴唐路13号之二F3二层、三层 ，生产许可证：粤妆20210095；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "碳酸钙、水、山梨（糖）醇、甘油、水合硅石、月桂醇硫酸酯钠、聚乙二醇-8、焦磷酸四钠、纤维素胶、香精、三聚磷酸五钠、黄原胶、薄荷醇、糖精钠、CI 77891、羟苯甲酯",
+      "trace_ingredients": "柑橘（CITRUS RETICULATA）果皮提取物、库拉索芦荟（ALOE BARBADENSIS）叶提取物、苦参（SOPHORA FLAVESCENS）根提取物、无患子（SAPINDUS MUKOROSSI）果皮提取物、地榆（SANGUISORBA OFFICINALIS）根提取物、葡聚糖酶、植酸钠、月桂酰肌氨酸钠、羟苯丙酯、CI 12490、CI 74160",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处。",
+      "shelf_life": "三年；生产批号和限期使用日期：见包装",
+      "storage": "",
+      "claims": "清洁",
+      "package_items": [
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1484614083227492352",
+          "attachment_id": "1484614083227492352"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482068515536052224",
+          "attachment_id": "1482068515536052224"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482067109123006464",
+          "attachment_id": "1482067109123006464"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1484614083227492352",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482068515536052224",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482067109123006464"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1480934329407324160",
+      "candidate_main_ids": [
+        "1491183831623925760",
+        "1480934329407324160"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4MDkzNDMyOTQwNzMyNDE2MCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "no_click_link",
+      "preview_3d_image": "",
+      "preview_3d_source_link": "",
+      "preview_3d_attachment_id": "1482068515536052224"
+    },
+    {
+      "month": "2026-03",
+      "filing_date": "2026-03-12",
+      "product_name": "usmile笑容加美白双管牙膏（月下鸢尾）",
+      "filing_no": "粤国牙膏网备字2026000740",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、甘油、月桂醇硫酸酯钠、单氟磷酸钠（0.145%，以氟计）、香精、焦磷酸四钠、氯化钠、皱波角叉菜（CHONDRUS CRISPUS）、月桂酰肌氨酸钠、纤维素胶、红没药醇、三氯半乳糖",
+      "trace_ingredients": "CI 17200、CI 74160、丙二醇、聚山梨醇酯-80、苯氧乙醇、辛甘醇",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出,并用清水漱口。本产品可适用于普通牙刷和电动牙刷;推荐搭配电动牙刷使用,效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠和单过硫酸氢钾复合盐，本产品不适用于儿童。建议开启后3个月内尽快用完。",
+      "shelf_life": "2.5年；生产批号和限期使用日期：见包装",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646868022657024",
+          "attachment_id": "1518646868022657024"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646867888439296",
+          "attachment_id": "1518646867888439296"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646154073546752",
+          "attachment_id": "1518646154073546752"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646868022657024",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646867888439296",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646154073546752"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1518646848577945600",
+      "candidate_main_ids": [
+        "1524828283798028288",
+        "1518646848577945600"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUxODY0Njg0ODU3Nzk0NTYwMCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "no_click_link",
+      "preview_3d_image": "",
+      "preview_3d_source_link": "",
+      "preview_3d_attachment_id": "1518646867888439296"
+    },
+    {
+      "month": "2026-03",
+      "filing_date": "2026-03-11",
+      "product_name": "usmile笑容加深导修护牙膏（雪松薄荷）",
+      "filing_no": "粤国牙膏网备字2026000828",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "甘油、水合硅石、焦磷酸钙、硅酸钙、丙二醇、磷硅酸钙、羟基磷灰石、聚乙二醇-8、月桂醇硫酸酯钠、单氟磷酸钠、香精、羟乙基纤维素、硅石、月桂酰肌氨酸钠、CI 77891、PEG-40 氢化蓖麻油、三氯半乳糖",
+      "trace_ingredients": "胶原、聚乙烯吡咯烷酮、CI 12490、CI 74160",
+      "usage": "本产品使用无水配方，建议挤出身体后不蘸水直接刷牙，以达最佳效果。每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷;推荐搭配电动牙刷使用,效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处;含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "生产批号和限期使用日期：见包装 2.5年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489687478734495744",
+          "attachment_id": "1489687478734495744"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489686983609491456",
+          "attachment_id": "1489686983609491456"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1481336157778288640",
+          "attachment_id": "1481336157778288640"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489687478734495744",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489686983609491456",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1481336157778288640"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1470464508198866944",
+      "candidate_main_ids": [
+        "1493330511903326208",
+        "1470464508198866944"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ3MDQ2NDUwODE5ODg2Njk0NCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_15_1489686983609491456.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489686983609491456",
+      "preview_3d_attachment_id": "1489686983609491456"
+    },
+    {
+      "month": "2026-02",
+      "filing_date": "2026-02-28",
+      "product_name": "usmile笑容加抗敏修白牙膏",
+      "filing_no": "粤国牙膏网备字2026000915",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东省九科生物科技有限公司 ，企业地址：佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报） ，生产地址：佛山三水工业园区大塘园兴唐路13号之二F3二层、三层 ，生产许可证：粤妆20210095；企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、硝酸钾、聚乙二醇-8、月桂醇硫酸酯钠、甘油、单氟磷酸钠、食用香精（料）、羟基磷灰石、聚乙烯吡咯烷酮、羟乙基纤维素、焦磷酸四钠、纤维素胶、月桂酰肌氨酸钠、植酸钠、糖精钠、CI 77891",
+      "trace_ingredients": "CI 12490、CI 74160",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 抗牙本质敏感, 清洁；防龋, 抗牙本质敏感, 清洁；防龋, 抗牙本质敏感, 清洁；防龋, 抗牙本质敏感, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1480991494869426176",
+          "attachment_id": "1480991494869426176"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1480991328078733312",
+          "attachment_id": "1480991328078733312"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477352775415308288",
+          "attachment_id": "1477352775415308288"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1480991494869426176",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1480991328078733312",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477352775415308288"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1476618361801621504",
+      "candidate_main_ids": [
+        "1480513718344220672",
+        "1476618361801621504"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ3NjYxODM2MTgwMTYyMTUwNCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_16_1480991494869426176.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1480991494869426176",
+      "preview_3d_attachment_id": "1480991494869426176"
+    },
+    {
+      "month": "2026-02",
+      "filing_date": "2026-02-26",
+      "product_name": "usmile笑容加色修美白牙膏",
+      "filing_no": "粤国牙膏网备字2026000832",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、甘油、丙二醇、月桂醇硫酸酯钠、香精、六偏磷酸钠、单氟磷酸钠（0.11%，以氟计）、三聚磷酸五钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、甘氨酸锌、月桂酰肌氨酸钠、三氯半乳糖",
+      "trace_ingredients": "木瓜蛋白酶、溶菌酶、葡聚糖酶、炭粉、胭脂虫红、栀子（GARDENIA JASMINOIDES）果提取物、黄原胶、甘露糖醇、云母、乙基纤维素、硅石、羟丙基甲基纤维素、麦芽糊精、合成氟金云母、氧化铈",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出,并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616576971120640",
+          "attachment_id": "1476616576971120640"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616472092549120",
+          "attachment_id": "1476616472092549120"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616447866249216",
+          "attachment_id": "1476616447866249216"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616576971120640",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616472092549120",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616447866249216"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1470464719474618368",
+      "candidate_main_ids": [
+        "1478845647351185408",
+        "1470464719474618368"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ3MDQ2NDcxOTQ3NDYxODM2OCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_17_1476616472092549120.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616472092549120",
+      "preview_3d_attachment_id": "1476616472092549120"
+    },
+    {
+      "month": "2026-02",
+      "filing_date": "2026-02-03",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）",
+      "filing_no": "粤国牙膏网备字2026000539",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、丙二醇、聚乙二醇-8、月桂醇硫酸酯钠、食用香精（料）、单氟磷酸钠（0.11%，以氟计）、六偏磷酸钠、皱波角叉菜（CHONDRUS CRISPUS）、焦磷酸二氢二钠、黄原胶、三氯半乳糖",
+      "trace_ingredients": "葡糖氧化酶、葡聚糖酶、聚赖氨酸、抗坏血酸（维生素C）、硅石、结冷胶、甘油、山梨酸钾、硼硅酸铝钙、氧化锡、聚山梨醇酯-80、苯氧乙醇、辛甘醇、CI 77891、CI 74160、CI 17200",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477346141213368320",
+          "attachment_id": "1477346141213368320"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477343881620168704",
+          "attachment_id": "1477343881620168704"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477343756457943040",
+          "attachment_id": "1477343756457943040"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477346141213368320",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477343881620168704",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477343756457943040"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1467891352405893120",
+      "candidate_main_ids": [
+        "1480513385001910272",
+        "1467891352405893120"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2Nzg5MTM1MjQwNTg5MzEyMCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_18_1477343881620168704.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477343881620168704",
+      "preview_3d_attachment_id": "1477343881620168704"
+    },
+    {
+      "month": "2026-01",
+      "filing_date": "2026-01-30",
+      "product_name": "usmile笑容加双效香氛牙膏（赤霞橘光）",
+      "filing_no": "粤国牙膏网备字2026000478",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、甘油、丙二醇、月桂醇硫酸酯钠、食用香精（料）、六偏磷酸钠、单氟磷酸钠、三聚磷酸五钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、甘露糖醇、甘氨酸锌、月桂酰肌氨酸钠、三氯半乳糖",
+      "trace_ingredients": "葡聚糖酶、溶菌酶、苹果（MALUS DOMESTICA）果提取物、山茶（CAMELLIA JAPONICA）花提取物、黄原胶、微晶纤维素、玉米（ZEA MAYS）淀粉、羟丙基甲基纤维素、云母、CI 77891、CI 73360、CI 15985",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489319273574768640",
+          "attachment_id": "1489319273574768640"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489319098588405760",
+          "attachment_id": "1489319098588405760"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489310258596675584",
+          "attachment_id": "1489310258596675584"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489319273574768640",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489319098588405760",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489310258596675584"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1489310252406370304",
+      "candidate_main_ids": [
+        "1493196237929709568",
+        "1489310252406370304"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4OTMxMDI1MjQwNjM3MDMwNCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_19_1489319273574768640.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489319273574768640",
+      "preview_3d_attachment_id": "1489319273574768640"
+    },
+    {
+      "month": "2026-01",
+      "filing_date": "2026-01-30",
+      "product_name": "usmile笑容加双效香氛牙膏（晨露玫瑰）",
+      "filing_no": "粤国牙膏网备字2026000477",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、甘油、丙二醇、月桂醇硫酸酯钠、食用香精（料）、六偏磷酸钠、单氟磷酸钠、三聚磷酸五钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、甘露糖醇、甘氨酸锌、月桂酰肌氨酸钠、三氯半乳糖",
+      "trace_ingredients": "葡聚糖酶、溶菌酶、苹果（MALUS DOMESTICA）果提取物、山茶（CAMELLIA JAPONICA）花提取物、黄原胶、微晶纤维素、玉米（ZEA MAYS）淀粉、羟丙基甲基纤维素、云母、CI 77891、CI 73360、CI 17200",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489323721499942912",
+          "attachment_id": "1489323721499942912"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489323683054952448",
+          "attachment_id": "1489323683054952448"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489230857221701632",
+          "attachment_id": "1489230857221701632"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489323721499942912",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489323683054952448",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489230857221701632"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1489230845612355584",
+      "candidate_main_ids": [
+        "1493196282456440832",
+        "1489230845612355584"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4OTIzMDg0NTYxMjM1NTU4NCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_20_1489323721499942912.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489323721499942912",
+      "preview_3d_attachment_id": "1489323721499942912"
+    },
+    {
+      "month": "2026-01",
+      "filing_date": "2026-01-28",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）",
+      "filing_no": "粤国牙膏网备字2026000538",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、丙二醇、月桂醇硫酸酯钠、食用香精（料）、单氟磷酸钠（0.11%，以氟计）、六偏磷酸钠、皱波角叉菜（CHONDRUS CRISPUS）、焦磷酸二氢二钠、黄原胶、三氯半乳糖",
+      "trace_ingredients": "葡糖氧化酶、葡聚糖酶、聚赖氨酸、抗坏血酸（维生素C）、硅石、结冷胶、甘油、山梨酸钾、硼硅酸铝钙、氧化锡、CI 77891、CI 16035、CI 19140",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处，含单氟磷酸钠，具有预防蛀牙效果，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477348912868171776",
+          "attachment_id": "1477348912868171776"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477347843341623296",
+          "attachment_id": "1477347843341623296"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477347077356855296",
+          "attachment_id": "1477347077356855296"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477348912868171776",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477347843341623296",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477347077356855296"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1465760679926513664",
+      "candidate_main_ids": [
+        "1480513451406131200",
+        "1465760679926513664"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2NTc2MDY3OTkyNjUxMzY2NCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_21_1477348912868171776.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477348912868171776",
+      "preview_3d_attachment_id": "1477348912868171776"
+    },
+    {
+      "month": "2026-01",
+      "filing_date": "2026-01-27",
+      "product_name": "usmile笑容加牙龈护牙膏（金柚橙花）",
+      "filing_no": "粤国牙膏网备字2026000302",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：广东省九科生物科技有限公司 ，企业地址：佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报） ，生产地址：佛山三水工业园区大塘园兴唐路13号之二F3二层、三层 ，生产许可证：粤妆20210095；企业名称：广东九科口腔用品有限公司 ，企业地址：清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照） ，生产地址：清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层 ，生产许可证：粤妆20250189；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "广东省九科生物科技有限公司",
+          "enterprise_address": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+          "production_address": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+          "production_license": "粤妆20210095",
+          "role": "生产/加工企业"
+        },
+        {
+          "enterprise_name": "广东九科口腔用品有限公司",
+          "enterprise_address": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+          "production_address": "清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+          "production_license": "粤妆20250189",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、焦磷酸钙、聚乙二醇-8、甘油、库拉索芦荟（ALOE BARBADENSIS）叶汁、月桂酰肌氨酸钠、单氟磷酸钠、椰油酰谷氨酸二钠、甘草酸二钾、丁香（SYZYGIUM AROMATICUM）油、焦磷酸四钠、薄荷脑、黄原胶、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、CI 77891、三氯半乳糖",
+      "trace_ingredients": "精氨酸、香柠檬（CITRUS AURANTIUM BERGAMIA）果油、PVM/MA 共聚物、脱乙酰壳多糖、卵磷脂",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出，并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 抑牙菌斑, 减轻牙龈问题, 清洁；防龋, 抑牙菌斑, 减轻牙龈问题, 清洁",
+      "package_items": [
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465675040724951040",
+          "attachment_id": "1465675040724951040"
+        },
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465674956151005184",
+          "attachment_id": "1465674956151005184"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465674896822575104",
+          "attachment_id": "1465674896822575104"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465675040724951040",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465674956151005184",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465674896822575104"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1458515850461274112",
+      "candidate_main_ids": [
+        "1471949744145170432",
+        "1458515850461274112"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ1ODUxNTg1MDQ2MTI3NDExMiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_22_1465674956151005184.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465674956151005184",
+      "preview_3d_attachment_id": "1465674956151005184"
+    },
+    {
+      "month": "2026-01",
+      "filing_date": "2026-01-13",
+      "product_name": "usmile笑容加冷光修白牙膏（冷萃葡萄）",
+      "filing_no": "粤国牙膏网备字2026000123",
+      "filer": "广州华视光学科技有限公司",
+      "filer_address": "天河北路235号2102房",
+      "product_status": "",
+      "factory_info_raw": "企业名称：广州华视光学科技有限公司 ，企业地址：天河北路235号2102房企业名称：赛维泰（广州）健康药业有限公司 ，企业地址：广州市花都区镜湖大道60号1栋、2栋、3栋 ，生产地址：广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区 ，生产许可证：粤妆 20210150；",
+      "factories": [
+        {
+          "enterprise_name": "广州华视光学科技有限公司",
+          "enterprise_address": "天河北路235号2102房",
+          "production_address": "",
+          "production_license": "",
+          "role": "备案人"
+        },
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "manufacturing_factories": [
+        {
+          "enterprise_name": "赛维泰（广州）健康药业有限公司",
+          "enterprise_address": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+          "production_address": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+          "production_license": "粤妆 20210150",
+          "role": "生产/加工企业"
+        }
+      ],
+      "ingredients_over_0_1": "山梨（糖）醇、水、水合硅石、聚乙二醇-8、甘油、丙二醇、月桂醇硫酸酯钠、香精、六偏磷酸钠、单氟磷酸钠（0.11%，以氟计）、三聚磷酸五钠、皱波角叉菜（CHONDRUS CRISPUS）、苯甲酸钠、甘氨酸锌、月桂酰肌氨酸钠、三氯半乳糖",
+      "trace_ingredients": "木瓜蛋白酶、溶菌酶、葡聚糖酶、炭粉、胭脂虫红、栀子（GARDENIA JASMINOIDES）果提取物、黄原胶、甘露糖醇、云母、乙基纤维素、硅石、羟丙基甲基纤维素、麦芽糊精、合成氟金云母、氧化铈",
+      "usage": "每天使用本产品刷牙两次。刷牙后吐出,并用清水漱口。本产品可适用于普通牙刷和电动牙刷；推荐搭配电动牙刷使用，效果更佳。",
+      "warnings": "请勿吞服，并存于儿童不易触及处；含单氟磷酸钠，具有预防蛀牙功效，本产品不适用于儿童。",
+      "shelf_life": "三年",
+      "storage": "",
+      "claims": "防龋, 清洁；防龋, 清洁",
+      "package_items": [
+        {
+          "category": "产品立体平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465406110546599936",
+          "attachment_id": "1465406110546599936"
+        },
+        {
+          "category": "产品包装平面图",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465405647830982656",
+          "attachment_id": "1465405647830982656"
+        },
+        {
+          "category": "说明书",
+          "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1464222929804853248",
+          "attachment_id": "1464222929804853248"
+        }
+      ],
+      "package_preview_links": [
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465406110546599936",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465405647830982656",
+        "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1464222929804853248"
+      ],
+      "existing_package_images": [],
+      "selected_main_id": "1464222922431483904",
+      "candidate_main_ids": [
+        "1468197956992630784",
+        "1464222922431483904"
+      ],
+      "source_detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2NDIyMjkyMjQzMTQ4MzkwNCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+      "source_queries": [
+        "笑容加"
+      ],
+      "errors": [],
+      "preview_3d_status": "existing",
+      "preview_3d_image": "preview_3d/preview_23_1465406110546599936.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465406110546599936",
+      "preview_3d_attachment_id": "1465406110546599936"
+    }
+  ],
+  "factory_summary": [
+    {
+      "factory_name": "广东九科口腔用品有限公司",
+      "product_count": 14,
+      "product_list": [
+        {
+          "product_name": "usmile笑容加焕白清新牙膏（山野脆苹）焕新版",
+          "filing_no": "粤国牙膏网备字2026002742",
+          "filing_date": "2026-06-12"
+        },
+        {
+          "product_name": "usmile笑容加修护防蛀儿童牙膏（沁甜草莓）",
+          "filing_no": "粤国牙膏网备字2026001949",
+          "filing_date": "2026-04-30"
+        },
+        {
+          "product_name": "usmile笑容加光氧美白牙膏（极光依兰）焕新版",
+          "filing_no": "粤国牙膏网备字2026001696",
+          "filing_date": "2026-04-15"
+        },
+        {
+          "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版",
+          "filing_no": "粤国牙膏网备字2026001692",
+          "filing_date": "2026-04-15"
+        },
+        {
+          "product_name": "usmile笑容加焕白清新牙膏（云上葡萄）焕彩版",
+          "filing_no": "粤国牙膏网备字2026001484",
+          "filing_date": "2026-04-10"
+        },
+        {
+          "product_name": "usmile笑容加抗敏修白牙膏（白花柚香）",
+          "filing_no": "粤国牙膏网备字2026001571",
+          "filing_date": "2026-03-31"
+        },
+        {
+          "product_name": "usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）",
+          "filing_no": "粤国牙膏网备字2026000965",
+          "filing_date": "2026-03-18"
+        },
+        {
+          "product_name": "usmile笑容加深导修护牙膏（雪松薄荷）",
+          "filing_no": "粤国牙膏网备字2026000828",
+          "filing_date": "2026-03-11"
+        },
+        {
+          "product_name": "usmile笑容加抗敏修白牙膏",
+          "filing_no": "粤国牙膏网备字2026000915",
+          "filing_date": "2026-02-28"
+        },
+        {
+          "product_name": "usmile笑容加光氧美白牙膏（极光依兰）",
+          "filing_no": "粤国牙膏网备字2026000539",
+          "filing_date": "2026-02-03"
+        },
+        {
+          "product_name": "usmile笑容加双效香氛牙膏（赤霞橘光）",
+          "filing_no": "粤国牙膏网备字2026000478",
+          "filing_date": "2026-01-30"
+        },
+        {
+          "product_name": "usmile笑容加双效香氛牙膏（晨露玫瑰）",
+          "filing_no": "粤国牙膏网备字2026000477",
+          "filing_date": "2026-01-30"
+        },
+        {
+          "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）",
+          "filing_no": "粤国牙膏网备字2026000538",
+          "filing_date": "2026-01-28"
+        },
+        {
+          "product_name": "usmile笑容加牙龈护牙膏（金柚橙花）",
+          "filing_no": "粤国牙膏网备字2026000302",
+          "filing_date": "2026-01-27"
+        }
+      ],
+      "product_names": "usmile笑容加焕白清新牙膏（山野脆苹）焕新版；usmile笑容加修护防蛀儿童牙膏（沁甜草莓）；usmile笑容加光氧美白牙膏（极光依兰）焕新版；usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版；usmile笑容加焕白清新牙膏（云上葡萄）焕彩版；usmile笑容加抗敏修白牙膏（白花柚香）；usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）；usmile笑容加深导修护牙膏（雪松薄荷）；usmile笑容加抗敏修白牙膏；usmile笑容加光氧美白牙膏（极光依兰）；usmile笑容加双效香氛牙膏（赤霞橘光）；usmile笑容加双效香氛牙膏（晨露玫瑰）；usmile笑容加光氧美白牙膏（乌木玫瑰）；usmile笑容加牙龈护牙膏（金柚橙花）",
+      "filing_nos": "粤国牙膏网备字2026002742；粤国牙膏网备字2026001949；粤国牙膏网备字2026001696；粤国牙膏网备字2026001692；粤国牙膏网备字2026001484；粤国牙膏网备字2026001571；粤国牙膏网备字2026000965；粤国牙膏网备字2026000828；粤国牙膏网备字2026000915；粤国牙膏网备字2026000539；粤国牙膏网备字2026000478；粤国牙膏网备字2026000477；粤国牙膏网备字2026000538；粤国牙膏网备字2026000302",
+      "enterprise_addresses": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号（一址多照）",
+      "production_addresses": "清远市清城区石角镇广州（清远）产业转移工业园兴园路1号2栋、4栋3层、5层；清远市清城区石角镇广州（清远）产业转移工业园路1号2栋、4栋3层、5层",
+      "production_licenses": "粤妆20250189",
+      "filers": "广州华视光学科技有限公司"
+    },
+    {
+      "factory_name": "赛维泰（广州）健康药业有限公司",
+      "product_count": 11,
+      "product_list": [
+        {
+          "product_name": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）",
+          "filing_no": "粤国牙膏网备字2026001605",
+          "filing_date": "2026-04-17"
+        },
+        {
+          "product_name": "usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版",
+          "filing_no": "粤国牙膏网备字2026001485",
+          "filing_date": "2026-04-16"
+        },
+        {
+          "product_name": "usmile笑容加光氧美白牙膏（极光依兰）焕新版",
+          "filing_no": "粤国牙膏网备字2026001696",
+          "filing_date": "2026-04-15"
+        },
+        {
+          "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版",
+          "filing_no": "粤国牙膏网备字2026001692",
+          "filing_date": "2026-04-15"
+        },
+        {
+          "product_name": "usmile笑容加焕白清新牙膏（云上葡萄）焕彩版",
+          "filing_no": "粤国牙膏网备字2026001484",
+          "filing_date": "2026-04-10"
+        },
+        {
+          "product_name": "usmile笑容加双管美白精华牙膏（月下铃兰）",
+          "filing_no": "粤国牙膏网备字2026001572",
+          "filing_date": "2026-04-03"
+        },
+        {
+          "product_name": "usmile笑容加美白双管牙膏（月下鸢尾）",
+          "filing_no": "粤国牙膏网备字2026000740",
+          "filing_date": "2026-03-12"
+        },
+        {
+          "product_name": "usmile笑容加色修美白牙膏",
+          "filing_no": "粤国牙膏网备字2026000832",
+          "filing_date": "2026-02-26"
+        },
+        {
+          "product_name": "usmile笑容加双效香氛牙膏（赤霞橘光）",
+          "filing_no": "粤国牙膏网备字2026000478",
+          "filing_date": "2026-01-30"
+        },
+        {
+          "product_name": "usmile笑容加双效香氛牙膏（晨露玫瑰）",
+          "filing_no": "粤国牙膏网备字2026000477",
+          "filing_date": "2026-01-30"
+        },
+        {
+          "product_name": "usmile笑容加冷光修白牙膏（冷萃葡萄）",
+          "filing_no": "粤国牙膏网备字2026000123",
+          "filing_date": "2026-01-13"
+        }
+      ],
+      "product_names": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）；usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版；usmile笑容加光氧美白牙膏（极光依兰）焕新版；usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版；usmile笑容加焕白清新牙膏（云上葡萄）焕彩版；usmile笑容加双管美白精华牙膏（月下铃兰）；usmile笑容加美白双管牙膏（月下鸢尾）；usmile笑容加色修美白牙膏；usmile笑容加双效香氛牙膏（赤霞橘光）；usmile笑容加双效香氛牙膏（晨露玫瑰）；usmile笑容加冷光修白牙膏（冷萃葡萄）",
+      "filing_nos": "粤国牙膏网备字2026001605；粤国牙膏网备字2026001485；粤国牙膏网备字2026001696；粤国牙膏网备字2026001692；粤国牙膏网备字2026001484；粤国牙膏网备字2026001572；粤国牙膏网备字2026000740；粤国牙膏网备字2026000832；粤国牙膏网备字2026000478；粤国牙膏网备字2026000477；粤国牙膏网备字2026000123",
+      "enterprise_addresses": "广州市花都区镜湖大道60号1栋、2栋、3栋",
+      "production_addresses": "广州市花都区繁花路9号自编2栋1-3楼、1栋1楼A区",
+      "production_licenses": "粤妆 20210150",
+      "filers": "广州华视光学科技有限公司"
+    },
+    {
+      "factory_name": "广东省九科生物科技有限公司",
+      "product_count": 7,
+      "product_list": [
+        {
+          "product_name": "usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版",
+          "filing_no": "粤国牙膏网备字2026001485",
+          "filing_date": "2026-04-16"
+        },
+        {
+          "product_name": "usmile笑容加抗敏修白牙膏（白花柚香）",
+          "filing_no": "粤国牙膏网备字2026001571",
+          "filing_date": "2026-03-31"
+        },
+        {
+          "product_name": "usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）",
+          "filing_no": "粤国牙膏网备字2026000965",
+          "filing_date": "2026-03-18"
+        },
+        {
+          "product_name": "usmile笑容加防渍锁白牙膏（晨露桂雨）",
+          "filing_no": "粤国牙膏网备字2026000830",
+          "filing_date": "2026-03-13"
+        },
+        {
+          "product_name": "usmile笑容加专研清新牙膏（冰萃薄荷）",
+          "filing_no": "粤国牙膏网备字2026000829",
+          "filing_date": "2026-03-13"
+        },
+        {
+          "product_name": "usmile笑容加抗敏修白牙膏",
+          "filing_no": "粤国牙膏网备字2026000915",
+          "filing_date": "2026-02-28"
+        },
+        {
+          "product_name": "usmile笑容加牙龈护牙膏（金柚橙花）",
+          "filing_no": "粤国牙膏网备字2026000302",
+          "filing_date": "2026-01-27"
+        }
+      ],
+      "product_names": "usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版；usmile笑容加抗敏修白牙膏（白花柚香）；usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）；usmile笑容加防渍锁白牙膏（晨露桂雨）；usmile笑容加专研清新牙膏（冰萃薄荷）；usmile笑容加抗敏修白牙膏；usmile笑容加牙龈护牙膏（金柚橙花）",
+      "filing_nos": "粤国牙膏网备字2026001485；粤国牙膏网备字2026001571；粤国牙膏网备字2026000965；粤国牙膏网备字2026000830；粤国牙膏网备字2026000829；粤国牙膏网备字2026000915；粤国牙膏网备字2026000302",
+      "enterprise_addresses": "佛山市三水区大塘镇兴唐路20-1号1号厂房2F-1-2A、2F-1-2B、3F-1-3A（住所申报）",
+      "production_addresses": "佛山三水工业园区大塘园兴唐路13号之二F3二层、三层",
+      "production_licenses": "粤妆20210095",
+      "filers": "广州华视光学科技有限公司"
+    },
+    {
+      "factory_name": "未公示/详情为空",
+      "product_count": 1,
+      "product_list": [
+        {
+          "product_name": "usmile笑容加焕白清新牙膏（冷萃葡萄）焕新版",
+          "filing_no": "粤国牙膏网备字2026003196",
+          "filing_date": "2026-07-09"
+        }
+      ],
+      "product_names": "usmile笑容加焕白清新牙膏（冷萃葡萄）焕新版",
+      "filing_nos": "粤国牙膏网备字2026003196",
+      "enterprise_addresses": "",
+      "production_addresses": "",
+      "production_licenses": "",
+      "filers": "广州华视光学科技有限公司"
+    }
+  ],
+  "package_rows": [
+    {
+      "filing_no": "粤国牙膏网备字2026003196",
+      "product_name": "usmile笑容加焕白清新牙膏（冷萃葡萄）焕新版",
+      "filing_date": "2026-07-09",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803816536481792",
+      "attachment_id": "1524803816536481792"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026003196",
+      "product_name": "usmile笑容加焕白清新牙膏（冷萃葡萄）焕新版",
+      "filing_date": "2026-07-09",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803420619350016",
+      "attachment_id": "1524803420619350016"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026003196",
+      "product_name": "usmile笑容加焕白清新牙膏（冷萃葡萄）焕新版",
+      "filing_date": "2026-07-09",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1524803255216971776",
+      "attachment_id": "1524803255216971776"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001949",
+      "product_name": "usmile笑容加修护防蛀儿童牙膏（沁甜草莓）",
+      "filing_date": "2026-04-30",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504513500164202496",
+      "attachment_id": "C468F6E9C7674940A9C5B8244D4010F9"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001949",
+      "product_name": "usmile笑容加修护防蛀儿童牙膏（沁甜草莓）",
+      "filing_date": "2026-04-30",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1499374189341122560",
+      "attachment_id": "66A994D21F184BAA9CAA1DDE347BF38D"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001949",
+      "product_name": "usmile笑容加修护防蛀儿童牙膏（沁甜草莓）",
+      "filing_date": "2026-04-30",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504513568367779840",
+      "attachment_id": "62D9F42FAA1841038010435ECDA784B1"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001605",
+      "product_name": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）",
+      "filing_date": "2026-04-17",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1503805846752141312",
+      "attachment_id": "D983CE6F98BE4356AFAB01F16E0B957F"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001605",
+      "product_name": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）",
+      "filing_date": "2026-04-17",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494763705820323840",
+      "attachment_id": "D12792438D9348D38D97F1798357566E"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001605",
+      "product_name": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）",
+      "filing_date": "2026-04-17",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494774080112500736",
+      "attachment_id": "CDFF782302C840B781A2C0A1B8739EF4"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001605",
+      "product_name": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）",
+      "filing_date": "2026-04-17",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494763528749391872",
+      "attachment_id": "7FC87B888BDC485CA060691D9DC0DF11"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001605",
+      "product_name": "usmile笑容加净齿抗糖酸儿童牙膏（多汁草莓）",
+      "filing_date": "2026-04-17",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1503807741252149248",
+      "attachment_id": "3FE9AFAA5F9146A2AE854F3C5867F14A"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001485",
+      "product_name": "usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版",
+      "filing_date": "2026-04-16",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379755292008448",
+      "attachment_id": "1498379755292008448"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001485",
+      "product_name": "usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版",
+      "filing_date": "2026-04-16",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379728410714112",
+      "attachment_id": "1498379728410714112"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001485",
+      "product_name": "usmile笑容加焕白清新牙膏（雪浸山茶）焕彩版",
+      "filing_date": "2026-04-16",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498373376090046464",
+      "attachment_id": "1498373376090046464"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001696",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）焕新版",
+      "filing_date": "2026-04-15",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328",
+      "attachment_id": "5E1E8CA77F8B4842B50006B1B22A7BB1"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001696",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）焕新版",
+      "filing_date": "2026-04-15",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832",
+      "attachment_id": "1310CF59E9274219B695442B4533090F"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001696",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）焕新版",
+      "filing_date": "2026-04-15",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664",
+      "attachment_id": "10777D3C4A844184A6294975449FB565"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001692",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版",
+      "filing_date": "2026-04-15",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494029306866769920",
+      "attachment_id": "1494029306866769920"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001692",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版",
+      "filing_date": "2026-04-15",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016840053104640",
+      "attachment_id": "1494016840053104640"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001692",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）焕新版",
+      "filing_date": "2026-04-15",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016562893496320",
+      "attachment_id": "1494016562893496320"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001572",
+      "product_name": "usmile笑容加双管美白精华牙膏（月下铃兰）",
+      "filing_date": "2026-04-03",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848",
+      "attachment_id": "1489684073802702848"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001572",
+      "product_name": "usmile笑容加双管美白精华牙膏（月下铃兰）",
+      "filing_date": "2026-04-03",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080",
+      "attachment_id": "1489683993934766080"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001572",
+      "product_name": "usmile笑容加双管美白精华牙膏（月下铃兰）",
+      "filing_date": "2026-04-03",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520",
+      "attachment_id": "1489682678957547520"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001571",
+      "product_name": "usmile笑容加抗敏修白牙膏（白花柚香）",
+      "filing_date": "2026-03-31",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606999633534976",
+      "attachment_id": "1488606999633534976"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001571",
+      "product_name": "usmile笑容加抗敏修白牙膏（白花柚香）",
+      "filing_date": "2026-03-31",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606909254672384",
+      "attachment_id": "1488606909254672384"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026001571",
+      "product_name": "usmile笑容加抗敏修白牙膏（白花柚香）",
+      "filing_date": "2026-03-31",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488606877772226560",
+      "attachment_id": "1488606877772226560"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000965",
+      "product_name": "usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）",
+      "filing_date": "2026-03-18",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483871467884060672",
+      "attachment_id": "1483871467884060672"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000965",
+      "product_name": "usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）",
+      "filing_date": "2026-03-18",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483871419519541248",
+      "attachment_id": "1483871419519541248"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000965",
+      "product_name": "usmile笑容加青少年美白防蛀牙膏（冰萃葡萄）",
+      "filing_date": "2026-03-18",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1483865736875155456",
+      "attachment_id": "1483865736875155456"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000830",
+      "product_name": "usmile笑容加防渍锁白牙膏（晨露桂雨）",
+      "filing_date": "2026-03-13",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1486400891892342784",
+      "attachment_id": "1486400891892342784"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000830",
+      "product_name": "usmile笑容加防渍锁白牙膏（晨露桂雨）",
+      "filing_date": "2026-03-13",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1486400833922867200",
+      "attachment_id": "1486400833922867200"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000830",
+      "product_name": "usmile笑容加防渍锁白牙膏（晨露桂雨）",
+      "filing_date": "2026-03-13",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482067669561712640",
+      "attachment_id": "1482067669561712640"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000829",
+      "product_name": "usmile笑容加专研清新牙膏（冰萃薄荷）",
+      "filing_date": "2026-03-13",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1484614083227492352",
+      "attachment_id": "1484614083227492352"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000829",
+      "product_name": "usmile笑容加专研清新牙膏（冰萃薄荷）",
+      "filing_date": "2026-03-13",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482068515536052224",
+      "attachment_id": "1482068515536052224"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000829",
+      "product_name": "usmile笑容加专研清新牙膏（冰萃薄荷）",
+      "filing_date": "2026-03-13",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482067109123006464",
+      "attachment_id": "1482067109123006464"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000740",
+      "product_name": "usmile笑容加美白双管牙膏（月下鸢尾）",
+      "filing_date": "2026-03-12",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646868022657024",
+      "attachment_id": "1518646868022657024"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000740",
+      "product_name": "usmile笑容加美白双管牙膏（月下鸢尾）",
+      "filing_date": "2026-03-12",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646867888439296",
+      "attachment_id": "1518646867888439296"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000740",
+      "product_name": "usmile笑容加美白双管牙膏（月下鸢尾）",
+      "filing_date": "2026-03-12",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646154073546752",
+      "attachment_id": "1518646154073546752"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000828",
+      "product_name": "usmile笑容加深导修护牙膏（雪松薄荷）",
+      "filing_date": "2026-03-11",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489687478734495744",
+      "attachment_id": "1489687478734495744"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000828",
+      "product_name": "usmile笑容加深导修护牙膏（雪松薄荷）",
+      "filing_date": "2026-03-11",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489686983609491456",
+      "attachment_id": "1489686983609491456"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000828",
+      "product_name": "usmile笑容加深导修护牙膏（雪松薄荷）",
+      "filing_date": "2026-03-11",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1481336157778288640",
+      "attachment_id": "1481336157778288640"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000915",
+      "product_name": "usmile笑容加抗敏修白牙膏",
+      "filing_date": "2026-02-28",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1480991494869426176",
+      "attachment_id": "1480991494869426176"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000915",
+      "product_name": "usmile笑容加抗敏修白牙膏",
+      "filing_date": "2026-02-28",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1480991328078733312",
+      "attachment_id": "1480991328078733312"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000915",
+      "product_name": "usmile笑容加抗敏修白牙膏",
+      "filing_date": "2026-02-28",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477352775415308288",
+      "attachment_id": "1477352775415308288"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000832",
+      "product_name": "usmile笑容加色修美白牙膏",
+      "filing_date": "2026-02-26",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616576971120640",
+      "attachment_id": "1476616576971120640"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000832",
+      "product_name": "usmile笑容加色修美白牙膏",
+      "filing_date": "2026-02-26",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616472092549120",
+      "attachment_id": "1476616472092549120"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000832",
+      "product_name": "usmile笑容加色修美白牙膏",
+      "filing_date": "2026-02-26",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1476616447866249216",
+      "attachment_id": "1476616447866249216"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000539",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）",
+      "filing_date": "2026-02-03",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477346141213368320",
+      "attachment_id": "1477346141213368320"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000539",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）",
+      "filing_date": "2026-02-03",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477343881620168704",
+      "attachment_id": "1477343881620168704"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000539",
+      "product_name": "usmile笑容加光氧美白牙膏（极光依兰）",
+      "filing_date": "2026-02-03",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477343756457943040",
+      "attachment_id": "1477343756457943040"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000478",
+      "product_name": "usmile笑容加双效香氛牙膏（赤霞橘光）",
+      "filing_date": "2026-01-30",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489319273574768640",
+      "attachment_id": "1489319273574768640"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000478",
+      "product_name": "usmile笑容加双效香氛牙膏（赤霞橘光）",
+      "filing_date": "2026-01-30",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489319098588405760",
+      "attachment_id": "1489319098588405760"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000478",
+      "product_name": "usmile笑容加双效香氛牙膏（赤霞橘光）",
+      "filing_date": "2026-01-30",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489310258596675584",
+      "attachment_id": "1489310258596675584"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000477",
+      "product_name": "usmile笑容加双效香氛牙膏（晨露玫瑰）",
+      "filing_date": "2026-01-30",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489323721499942912",
+      "attachment_id": "1489323721499942912"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000477",
+      "product_name": "usmile笑容加双效香氛牙膏（晨露玫瑰）",
+      "filing_date": "2026-01-30",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489323683054952448",
+      "attachment_id": "1489323683054952448"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000477",
+      "product_name": "usmile笑容加双效香氛牙膏（晨露玫瑰）",
+      "filing_date": "2026-01-30",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489230857221701632",
+      "attachment_id": "1489230857221701632"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000538",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）",
+      "filing_date": "2026-01-28",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477348912868171776",
+      "attachment_id": "1477348912868171776"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000538",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）",
+      "filing_date": "2026-01-28",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477347843341623296",
+      "attachment_id": "1477347843341623296"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000538",
+      "product_name": "usmile笑容加光氧美白牙膏（乌木玫瑰）",
+      "filing_date": "2026-01-28",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1477347077356855296",
+      "attachment_id": "1477347077356855296"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000302",
+      "product_name": "usmile笑容加牙龈护牙膏（金柚橙花）",
+      "filing_date": "2026-01-27",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465675040724951040",
+      "attachment_id": "1465675040724951040"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000302",
+      "product_name": "usmile笑容加牙龈护牙膏（金柚橙花）",
+      "filing_date": "2026-01-27",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465674956151005184",
+      "attachment_id": "1465674956151005184"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000302",
+      "product_name": "usmile笑容加牙龈护牙膏（金柚橙花）",
+      "filing_date": "2026-01-27",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465674896822575104",
+      "attachment_id": "1465674896822575104"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000123",
+      "product_name": "usmile笑容加冷光修白牙膏（冷萃葡萄）",
+      "filing_date": "2026-01-13",
+      "category": "产品立体平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465406110546599936",
+      "attachment_id": "1465406110546599936"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000123",
+      "product_name": "usmile笑容加冷光修白牙膏（冷萃葡萄）",
+      "filing_date": "2026-01-13",
+      "category": "产品包装平面图",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1465405647830982656",
+      "attachment_id": "1465405647830982656"
+    },
+    {
+      "filing_no": "粤国牙膏网备字2026000123",
+      "product_name": "usmile笑容加冷光修白牙膏（冷萃葡萄）",
+      "filing_date": "2026-01-13",
+      "category": "说明书",
+      "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1464222929804853248",
+      "attachment_id": "1464222929804853248"
+    }
+  ],
+  "raw_candidate_count": 46,
+  "unique_filing_count": 23,
+  "preview_3d_summary": {
+    "captured_count": 0,
+    "candidate_count": 2,
+    "product_count": 23,
+    "generated_at": "2026-08-06T12:33:50+0800"
+  }
+}
