@@ -423,7 +423,7 @@
         "笑容加"
       ],
       "errors": [],
-      "preview_3d_status": "existing",
+      "preview_3d_status": "recropped_from_raw",
       "preview_3d_image": "preview_3d/preview_05_1498379755292008448.png",
       "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498379755292008448",
       "preview_3d_attachment_id": "1498379755292008448"
@@ -516,10 +516,10 @@
         "笑容加"
       ],
       "errors": [],
-      "preview_3d_status": "no_click_link",
-      "preview_3d_image": "",
-      "preview_3d_source_link": "",
-      "preview_3d_attachment_id": "10777D3C4A844184A6294975449FB565"
+      "preview_3d_status": "captured_from_browser_tab",
+      "preview_3d_image": "preview_3d/preview_06_1507441623552753664.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664",
+      "preview_3d_attachment_id": "1507441623552753664"
     },
     {
       "month": "2026-04",
@@ -1101,9 +1101,9 @@
         "笑容加"
       ],
       "errors": [],
-      "preview_3d_status": "no_click_link",
-      "preview_3d_image": "",
-      "preview_3d_source_link": "",
+      "preview_3d_status": "recropped_from_raw",
+      "preview_3d_image": "preview_3d/preview_13_1482068515536052224.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1482068515536052224",
       "preview_3d_attachment_id": "1482068515536052224"
     },
     {
@@ -1180,9 +1180,9 @@
         "笑容加"
       ],
       "errors": [],
-      "preview_3d_status": "no_click_link",
-      "preview_3d_image": "",
-      "preview_3d_source_link": "",
+      "preview_3d_status": "recropped_from_raw",
+      "preview_3d_image": "preview_3d/preview_14_1518646867888439296.png",
+      "preview_3d_source_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1518646867888439296",
       "preview_3d_attachment_id": "1518646867888439296"
     },
     {
@@ -2693,9 +2693,10 @@
   "raw_candidate_count": 46,
   "unique_filing_count": 23,
   "preview_3d_summary": {
-    "captured_count": 0,
-    "candidate_count": 2,
+    "captured_count": 19,
+    "candidate_count": 21,
     "product_count": 23,
-    "generated_at": "2026-08-06T12:33:50+0800"
+    "generated_at": "2026-08-06T13:26:38+0800",
+    "note": "Preview thumbnails repaired after targeted browser capture/recrop."
   }
 }
