@@ -66,12 +66,14 @@ for panel in output/*_brand_panel.html; do
   cp "$panel" "docs/$(basename "$panel")"
 done
 
-if [[ -d output/package_images ]]; then
-  mkdir -p docs/package_images
-  rsync -a --delete output/package_images/ docs/package_images/
-else
-  echo "No output/package_images directory found; keeping existing docs/package_images." >&2
-fi
+for asset_dir in package_images package_pdfs package_renders; do
+  if [[ -d "output/$asset_dir" ]]; then
+    mkdir -p "docs/$asset_dir"
+    rsync -a --delete "output/$asset_dir/" "docs/$asset_dir/"
+  else
+    echo "No output/$asset_dir directory found; keeping existing docs/$asset_dir." >&2
+  fi
+done
 
 touch docs/.nojekyll
 

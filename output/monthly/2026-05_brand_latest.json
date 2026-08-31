@@ -30,7 +30,8 @@
           "package_info_status": "no_package_link_found",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "140",
@@ -81,10 +82,11 @@
           "_page_row_index": "17",
           "_main_id": "1504879167458590720",
           "package_images": [],
-          "package_info_status": "no_package_link_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "136",
@@ -134,10 +136,11 @@
           "_page_row_index": "2",
           "_main_id": "1464272774901223424",
           "package_images": [],
-          "package_info_status": "no_package_link_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "139",
@@ -299,6 +302,7 @@
               "package_preview_links": [],
               "package_attachment_items": [],
               "package_files": [],
+              "package_detail_pages": [],
               "spu_name": "参半齿色净牙膏"
             }
           ]
@@ -353,39 +357,10 @@
           ]
         },
         {
-          "spu_name": "参半可护牙膏",
-          "sku_count": 1,
-          "latest_filing_date": "2026-05-19",
-          "latest_product_name": "参半可护牙膏 愈创木香味",
-          "filers": [
-            "深圳小阔科技股份有限公司"
-          ],
-          "rows": [
-            {
-              "seq": "162",
-              "product_name": "参半可护牙膏 愈创木香味",
-              "filing_no": "粤国牙膏网备字2026000369",
-              "filing_date": "2026-05-19",
-              "filer": "深圳小阔科技股份有限公司",
-              "detail": "详情",
-              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2NDI3Mjc3NDkwMTIyMzQyNCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
-              "_page": "9",
-              "_page_row_index": "2",
-              "_main_id": "1464272774901223424",
-              "package_images": [],
-              "package_info_status": "no_package_link_found",
-              "package_preview_links": [],
-              "package_attachment_items": [],
-              "package_files": [],
-              "spu_name": "参半可护牙膏"
-            }
-          ]
-        },
-        {
           "spu_name": "参半酵素美白牙膏",
           "sku_count": 2,
           "latest_filing_date": "2026-05-19",
-          "latest_product_name": "参半酵素美白牙膏 熠光玫瑰味",
+          "latest_product_name": "参半酵素美白牙膏 星芒樱花味",
           "filers": [
             "深圳小阔科技股份有限公司"
           ],
@@ -402,10 +377,11 @@
               "_page_row_index": "17",
               "_main_id": "1504879167458590720",
               "package_images": [],
-              "package_info_status": "no_package_link_found",
+              "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
               "package_preview_links": [],
               "package_attachment_items": [],
               "package_files": [],
+              "package_detail_pages": [],
               "spu_name": "参半酵素美白牙膏"
             },
             {
@@ -444,6 +420,36 @@
                 "package_images/2026-05/参半/粤国牙膏网备字2026000311/package_source.pdf"
               ],
               "spu_name": "参半酵素美白牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "参半可护牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-05-19",
+          "latest_product_name": "参半可护牙膏 愈创木香味",
+          "filers": [
+            "深圳小阔科技股份有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "162",
+              "product_name": "参半可护牙膏 愈创木香味",
+              "filing_no": "粤国牙膏网备字2026000369",
+              "filing_date": "2026-05-19",
+              "filer": "深圳小阔科技股份有限公司",
+              "detail": "详情",
+              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2NDI3Mjc3NDkwMTIyMzQyNCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+              "_page": "9",
+              "_page_row_index": "2",
+              "_main_id": "1464272774901223424",
+              "package_images": [],
+              "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
+              "package_preview_links": [],
+              "package_attachment_items": [],
+              "package_files": [],
+              "package_detail_pages": [],
+              "spu_name": "参半可护牙膏"
             }
           ]
         },
@@ -515,6 +521,45 @@
           ],
           "rows": [
             {
+              "seq": "163",
+              "product_name": "参半清新沁香牙膏 白桃乌龙味",
+              "filing_no": "粤国牙膏网备字2026000363",
+              "filing_date": "2026-05-08",
+              "filer": "深圳小阔科技股份有限公司",
+              "detail": "详情",
+              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2MDI3NzY4OTY0OTgwNzM2MCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+              "_page": "9",
+              "_page_row_index": "3",
+              "_main_id": "1460277689649807360",
+              "package_images": [
+                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_capture_01.png",
+                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_capture_02.png",
+                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_capture_03.png"
+              ],
+              "package_info_status": "captured_preview_screenshot",
+              "package_preview_links": [
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502341700839874560",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502342390572195840"
+              ],
+              "package_attachment_items": [
+                {
+                  "category": "产品包装平面图",
+                  "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502341700839874560",
+                  "row_text": "1 产品包装平面图 https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502341700839874560 详情"
+                },
+                {
+                  "category": "产品立体平面图",
+                  "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502342390572195840",
+                  "row_text": "2 产品立体平面图 https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502342390572195840 详情"
+                }
+              ],
+              "package_capture_title": "gsxxFilePreview",
+              "package_files": [
+                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_source.pdf"
+              ],
+              "spu_name": "参半清新沁香牙膏"
+            },
+            {
               "seq": "164",
               "product_name": "参半清新沁香牙膏 多肉葡萄味",
               "filing_no": "粤国牙膏网备字2026000364",
@@ -563,45 +608,6 @@
                 "package_images/2026-05/参半/粤国牙膏网备字2026000364/package_source.pdf"
               ],
               "spu_name": "参半清新沁香牙膏"
-            },
-            {
-              "seq": "163",
-              "product_name": "参半清新沁香牙膏 白桃乌龙味",
-              "filing_no": "粤国牙膏网备字2026000363",
-              "filing_date": "2026-05-08",
-              "filer": "深圳小阔科技股份有限公司",
-              "detail": "详情",
-              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2MDI3NzY4OTY0OTgwNzM2MCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
-              "_page": "9",
-              "_page_row_index": "3",
-              "_main_id": "1460277689649807360",
-              "package_images": [
-                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_capture_01.png",
-                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_capture_02.png",
-                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_capture_03.png"
-              ],
-              "package_info_status": "captured_preview_screenshot",
-              "package_preview_links": [
-                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502341700839874560",
-                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502342390572195840"
-              ],
-              "package_attachment_items": [
-                {
-                  "category": "产品包装平面图",
-                  "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502341700839874560",
-                  "row_text": "1 产品包装平面图 https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502341700839874560 详情"
-                },
-                {
-                  "category": "产品立体平面图",
-                  "preview_link": "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502342390572195840",
-                  "row_text": "2 产品立体平面图 https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1502342390572195840 详情"
-                }
-              ],
-              "package_capture_title": "gsxxFilePreview",
-              "package_files": [
-                "package_images/2026-05/参半/粤国牙膏网备字2026000363/package_source.pdf"
-              ],
-              "spu_name": "参半清新沁香牙膏"
             }
           ]
         }
@@ -622,7 +628,8 @@
           "package_info_status": "no_package_link_found",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "140",
@@ -673,10 +680,11 @@
           "_page_row_index": "17",
           "_main_id": "1504879167458590720",
           "package_images": [],
-          "package_info_status": "no_package_link_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "136",
@@ -726,10 +734,11 @@
           "_page_row_index": "2",
           "_main_id": "1464272774901223424",
           "package_images": [],
-          "package_info_status": "no_package_link_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "139",
@@ -883,8 +892,8 @@
       "brand": "高露洁",
       "month": "2026-05",
       "latest_filing_date": "2026-05-25",
-      "product_name": "高露洁劲白牙膏竹炭薄荷味",
-      "filing_no": "粤国牙膏网备字2026000102",
+      "product_name": "高露洁劲白牙膏茉莉白茶味",
+      "filing_no": "粤国牙膏网备字2026000101",
       "filer": "高露洁棕榄（中国）有限公司",
       "month_count": 3,
       "note": "2026-05存在备案记录",
@@ -941,7 +950,8 @@
           "package_info_status": "no_package_link_found",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "135",
@@ -983,39 +993,10 @@
       ],
       "spu_groups": [
         {
-          "spu_name": "高露洁劲白牙膏竹炭薄荷味",
-          "sku_count": 1,
+          "spu_name": "高露洁劲白牙膏",
+          "sku_count": 3,
           "latest_filing_date": "2026-05-25",
-          "latest_product_name": "高露洁劲白牙膏竹炭薄荷味",
-          "filers": [
-            "高露洁棕榄（中国）有限公司"
-          ],
-          "rows": [
-            {
-              "seq": "133",
-              "product_name": "高露洁劲白牙膏竹炭薄荷味",
-              "filing_no": "粤国牙膏网备字2026000102",
-              "filing_date": "2026-05-25",
-              "filer": "高露洁棕榄（中国）有限公司",
-              "detail": "详情",
-              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2MTMyMjA2ODIyOTU3NDY1NiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
-              "_page": "7",
-              "_page_row_index": "13",
-              "_main_id": "1461322068229574656",
-              "package_images": [],
-              "package_info_status": "no_package_link_found",
-              "package_preview_links": [],
-              "package_attachment_items": [],
-              "package_files": [],
-              "spu_name": "高露洁劲白牙膏竹炭薄荷味"
-            }
-          ]
-        },
-        {
-          "spu_name": "高露洁劲白牙膏茉莉白茶味",
-          "sku_count": 1,
-          "latest_filing_date": "2026-05-25",
-          "latest_product_name": "高露洁劲白牙膏茉莉白茶味",
+          "latest_product_name": "高露洁劲白牙膏北美留兰味",
           "filers": [
             "高露洁棕榄（中国）有限公司"
           ],
@@ -1056,19 +1037,27 @@
               "package_files": [
                 "package_images/2026-05/高露洁/粤国牙膏网备字2026000101/package_source.pdf"
               ],
-              "spu_name": "高露洁劲白牙膏茉莉白茶味"
-            }
-          ]
-        },
-        {
-          "spu_name": "高露洁劲白牙膏北美留兰味",
-          "sku_count": 1,
-          "latest_filing_date": "2026-05-25",
-          "latest_product_name": "高露洁劲白牙膏北美留兰味",
-          "filers": [
-            "高露洁棕榄（中国）有限公司"
-          ],
-          "rows": [
+              "spu_name": "高露洁劲白牙膏"
+            },
+            {
+              "seq": "133",
+              "product_name": "高露洁劲白牙膏竹炭薄荷味",
+              "filing_no": "粤国牙膏网备字2026000102",
+              "filing_date": "2026-05-25",
+              "filer": "高露洁棕榄（中国）有限公司",
+              "detail": "详情",
+              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ2MTMyMjA2ODIyOTU3NDY1NiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+              "_page": "7",
+              "_page_row_index": "13",
+              "_main_id": "1461322068229574656",
+              "package_images": [],
+              "package_info_status": "no_package_link_found",
+              "package_preview_links": [],
+              "package_attachment_items": [],
+              "package_files": [],
+              "package_detail_pages": [],
+              "spu_name": "高露洁劲白牙膏"
+            },
             {
               "seq": "135",
               "product_name": "高露洁劲白牙膏北美留兰味",
@@ -1105,7 +1094,7 @@
               "package_files": [
                 "package_images/2026-05/高露洁/粤国牙膏网备字2026000100/package_source.pdf"
               ],
-              "spu_name": "高露洁劲白牙膏北美留兰味"
+              "spu_name": "高露洁劲白牙膏"
             }
           ]
         }
@@ -1163,7 +1152,8 @@
           "package_info_status": "no_package_link_found",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "135",
@@ -1238,12 +1228,21 @@
           "_page": "1",
           "_page_row_index": "7",
           "_main_id": "1503810256269033472",
-          "package_images": [],
-          "package_info_status": "no_package_link_found",
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-05/BOP/沪国牙膏网备字2026000089/package_document_01-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504074027102183424",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506344554692943872",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506363308881551360"
+          ],
           "package_attachment_items": [],
           "package_capture_title": "||| https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506344554692943872",
-          "package_files": []
+          "package_files": [
+            "package_pdfs/2026-05/BOP/沪国牙膏网备字2026000089/package_document_01.pdf"
+          ],
+          "package_detail_pages": []
         }
       ],
       "spu_groups": [
@@ -1267,12 +1266,21 @@
               "_page": "1",
               "_page_row_index": "7",
               "_main_id": "1503810256269033472",
-              "package_images": [],
-              "package_info_status": "no_package_link_found",
-              "package_preview_links": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-05/BOP/沪国牙膏网备字2026000089/package_document_01-1.png"
+              ],
+              "package_info_status": "fetched",
+              "package_preview_links": [
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504074027102183424",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506344554692943872",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506363308881551360"
+              ],
               "package_attachment_items": [],
               "package_capture_title": "||| https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506344554692943872",
-              "package_files": [],
+              "package_files": [
+                "package_pdfs/2026-05/BOP/沪国牙膏网备字2026000089/package_document_01.pdf"
+              ],
+              "package_detail_pages": [],
               "spu_name": "BOP波普专研热导色修美白牙膏"
             }
           ]
@@ -1290,12 +1298,21 @@
           "_page": "1",
           "_page_row_index": "7",
           "_main_id": "1503810256269033472",
-          "package_images": [],
-          "package_info_status": "no_package_link_found",
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-05/BOP/沪国牙膏网备字2026000089/package_document_01-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1504074027102183424",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506344554692943872",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506363308881551360"
+          ],
           "package_attachment_items": [],
           "package_capture_title": "||| https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1506344554692943872",
-          "package_files": []
+          "package_files": [
+            "package_pdfs/2026-05/BOP/沪国牙膏网备字2026000089/package_document_01.pdf"
+          ],
+          "package_detail_pages": []
         }
       ]
     },
@@ -1337,7 +1354,8 @@
           "package_info_status": "no_package_link_found",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "10",
@@ -1450,6 +1468,7 @@
               "package_preview_links": [],
               "package_attachment_items": [],
               "package_files": [],
+              "package_detail_pages": [],
               "spu_name": "俊小白泰康拜博口腔防蛀童趣变色牙膏"
             }
           ]
@@ -1458,7 +1477,7 @@
           "spu_name": "俊小白口腔香氛牙膏",
           "sku_count": 2,
           "latest_filing_date": "2026-05-22",
-          "latest_product_name": "俊小白口腔香氛牙膏（闲野清氛香型）",
+          "latest_product_name": "俊小白口腔香氛牙膏（林间浅馥香型）",
           "filers": [
             "上海鸿诚制生物科技有限公司"
           ],
@@ -1568,7 +1587,8 @@
           "package_info_status": "no_package_link_found",
           "package_preview_links": [],
           "package_attachment_items": [],
-          "package_files": []
+          "package_files": [],
+          "package_detail_pages": []
         },
         {
           "seq": "10",

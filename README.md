@@ -26,6 +26,12 @@
 5. 只保留“上个月”日期窗口内的记录。
 6. 输出 JSON、CSV 和 Markdown 汇总。
 
+包装信息口径已经固定为：
+
+- `package_preview_links` 只作为下载线索保存在 JSON 中，不作为面板可用包装信息。
+- 只有已经落到本地的 `package_images` 或 `package_files` 才算已取得包装信息。
+- 每次执行 `run-month`、`resume-month` 或 `single-brand`，都会额外扫描历史月度文件，把仍无本地包装资产的产品重新爬取一遍，方便补上后来开放的包装信息。
+
 历史实验脚本已经归档到 `archive/`，日常使用只需要关注统一入口和自动化目录。
 
 ## 运行
@@ -103,6 +109,8 @@ python3 toothpaste_tracker_pipeline.py rebuild-panel
 - `output/progress/YYYY-MM_brand_progress.jsonl`
 - `output/brand_dashboard.html`
 - `output/package_images/YYYY-MM/...`
+- `output/package_pdfs/YYYY-MM/...`
+- `output/package_renders/YYYY-MM/...`
 - `docs/`（GitHub Pages 发布目录，由 `./scripts/publish_site.sh` 自动同步）
 
 ## 上线到公网
@@ -120,7 +128,7 @@ https://liuchennnnn1121.github.io/nmpa-toothpaste-tracker/
 GitHub Pages 使用 `main` 分支的 `docs/` 目录发布。一键发布脚本会自动完成：
 
 - 重建 `output/brand_dashboard.html`
-- 同步 `docs/index.html`、月度面板和 `docs/package_images/`
+- 同步 `docs/index.html`、月度面板、`docs/package_images/`、`docs/package_pdfs/` 和 `docs/package_renders/`
 - 创建 Git 提交
 - 推送到 `origin/main`
 

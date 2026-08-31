@@ -40,7 +40,7 @@
           "_page_row_index": "10",
           "_main_id": "1498643527570518016",
           "package_images": [],
-          "package_info_status": "no_package_image_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_files": [],
           "package_preview_links": [],
           "package_detail_pages": [],
@@ -58,7 +58,7 @@
           "_page_row_index": "5",
           "_main_id": "1494743481141248000",
           "package_images": [],
-          "package_info_status": "no_package_image_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_files": [],
           "package_preview_links": [],
           "package_detail_pages": [],
@@ -76,7 +76,7 @@
           "_page_row_index": "1",
           "_main_id": "1498373365453508608",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498373376090046464",
@@ -98,12 +98,15 @@
           "_page_row_index": "1",
           "_main_id": "1507441616246763520",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_download_failed",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328</div",
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664</div",
-            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832</div"
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832</div",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832"
           ],
           "package_detail_pages": [],
           "package_attachment_items": []
@@ -119,10 +122,21 @@
           "_page": "5",
           "_page_row_index": "7",
           "_main_id": "1493620499161501696",
-          "package_images": [],
-          "package_info_status": "no_package_image_found",
-          "package_files": [],
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02-1.png",
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02-2.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_01.pdf",
+            "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02.pdf"
+          ],
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016562893496320",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016840053104640",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494029306866769920"
+          ],
           "package_detail_pages": [],
           "package_attachment_items": []
         },
@@ -138,7 +152,7 @@
           "_page_row_index": "9",
           "_main_id": "1498742195510005760",
           "package_images": [],
-          "package_info_status": "no_package_image_found",
+          "package_info_status": "no_package_link_found",
           "package_files": [],
           "package_preview_links": [],
           "package_detail_pages": [],
@@ -155,13 +169,21 @@
           "_page": "6",
           "_page_row_index": "3",
           "_main_id": "1489622142722469888",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
-          "package_files": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01-2.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01.pdf"
+          ],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520</div",
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080</div",
-            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848</div"
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848</div",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848"
           ],
           "package_detail_pages": [],
           "package_attachment_items": []
@@ -189,7 +211,7 @@
               "_page_row_index": "10",
               "_main_id": "1498643527570518016",
               "package_images": [],
-              "package_info_status": "no_package_image_found",
+              "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
               "package_files": [],
               "package_preview_links": [],
               "package_detail_pages": [],
@@ -219,7 +241,7 @@
               "_page_row_index": "5",
               "_main_id": "1494743481141248000",
               "package_images": [],
-              "package_info_status": "no_package_image_found",
+              "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
               "package_files": [],
               "package_preview_links": [],
               "package_detail_pages": [],
@@ -249,7 +271,7 @@
               "_page_row_index": "1",
               "_main_id": "1498373365453508608",
               "package_images": [],
-              "package_info_status": "package_preview_link_detected",
+              "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
               "package_files": [],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498373376090046464",
@@ -272,7 +294,7 @@
               "_page_row_index": "9",
               "_main_id": "1498742195510005760",
               "package_images": [],
-              "package_info_status": "no_package_image_found",
+              "package_info_status": "no_package_link_found",
               "package_files": [],
               "package_preview_links": [],
               "package_detail_pages": [],
@@ -302,12 +324,15 @@
               "_page_row_index": "1",
               "_main_id": "1507441616246763520",
               "package_images": [],
-              "package_info_status": "package_preview_link_detected",
+              "package_info_status": "package_download_failed",
               "package_files": [],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328</div",
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664</div",
-                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832</div"
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832</div",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832"
               ],
               "package_detail_pages": [],
               "package_attachment_items": [],
@@ -324,10 +349,21 @@
               "_page": "5",
               "_page_row_index": "7",
               "_main_id": "1493620499161501696",
-              "package_images": [],
-              "package_info_status": "no_package_image_found",
-              "package_files": [],
-              "package_preview_links": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_01-1.png",
+                "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02-1.png",
+                "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02-2.png"
+              ],
+              "package_info_status": "fetched",
+              "package_files": [
+                "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_01.pdf",
+                "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02.pdf"
+              ],
+              "package_preview_links": [
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016562893496320",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016840053104640",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494029306866769920"
+              ],
               "package_detail_pages": [],
               "package_attachment_items": [],
               "spu_name": "usmile笑容加光氧美白牙膏"
@@ -354,13 +390,21 @@
               "_page": "6",
               "_page_row_index": "3",
               "_main_id": "1489622142722469888",
-              "package_images": [],
-              "package_info_status": "package_preview_link_detected",
-              "package_files": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01-1.png",
+                "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01-2.png"
+              ],
+              "package_info_status": "fetched",
+              "package_files": [
+                "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01.pdf"
+              ],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520</div",
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080</div",
-                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848</div"
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848</div",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848"
               ],
               "package_detail_pages": [],
               "package_attachment_items": [],
@@ -382,7 +426,7 @@
           "_page_row_index": "10",
           "_main_id": "1498643527570518016",
           "package_images": [],
-          "package_info_status": "no_package_image_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_files": [],
           "package_preview_links": [],
           "package_detail_pages": [],
@@ -400,7 +444,7 @@
           "_page_row_index": "5",
           "_main_id": "1494743481141248000",
           "package_images": [],
-          "package_info_status": "no_package_image_found",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_files": [],
           "package_preview_links": [],
           "package_detail_pages": [],
@@ -418,7 +462,7 @@
           "_page_row_index": "1",
           "_main_id": "1498373365453508608",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_fetch_error:NMPA 页面未就绪: {'href': 'https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp', 'title': '', 'ready': 'complete', 'scripts': 0, 'text_len': 0, 'has_search_input': False, 'has_select_input': False}",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1498373376090046464",
@@ -440,12 +484,15 @@
           "_page_row_index": "1",
           "_main_id": "1507441616246763520",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_download_failed",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328</div",
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664</div",
-            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832</div"
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832</div",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623410147328",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507441623552753664",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1507443590749560832"
           ],
           "package_detail_pages": [],
           "package_attachment_items": []
@@ -461,10 +508,21 @@
           "_page": "5",
           "_page_row_index": "7",
           "_main_id": "1493620499161501696",
-          "package_images": [],
-          "package_info_status": "no_package_image_found",
-          "package_files": [],
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02-1.png",
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02-2.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_01.pdf",
+            "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001692/package_document_02.pdf"
+          ],
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016562893496320",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494016840053104640",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494029306866769920"
+          ],
           "package_detail_pages": [],
           "package_attachment_items": []
         },
@@ -480,7 +538,7 @@
           "_page_row_index": "9",
           "_main_id": "1498742195510005760",
           "package_images": [],
-          "package_info_status": "no_package_image_found",
+          "package_info_status": "no_package_link_found",
           "package_files": [],
           "package_preview_links": [],
           "package_detail_pages": [],
@@ -497,13 +555,21 @@
           "_page": "6",
           "_page_row_index": "3",
           "_main_id": "1489622142722469888",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
-          "package_files": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01-2.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/笑容加/粤国牙膏网备字2026001572/package_document_01.pdf"
+          ],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520</div",
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080</div",
-            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848</div"
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848</div",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489682678957547520",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489683993934766080",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489684073802702848"
           ],
           "package_detail_pages": [],
           "package_attachment_items": []
@@ -544,10 +610,20 @@
           "_page": "17",
           "_page_row_index": "2",
           "_main_id": "1488854084596486144",
-          "package_images": [],
-          "package_info_status": "no_package_image_found",
-          "package_files": [],
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01-2.png",
+            "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_02-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01.pdf",
+            "package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_02.pdf"
+          ],
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489653772984590336",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1496880307462283264"
+          ],
           "package_detail_pages": [],
           "package_attachment_items": []
         }
@@ -573,10 +649,20 @@
               "_page": "17",
               "_page_row_index": "2",
               "_main_id": "1488854084596486144",
-              "package_images": [],
-              "package_info_status": "no_package_image_found",
-              "package_files": [],
-              "package_preview_links": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01-1.png",
+                "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01-2.png",
+                "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_02-1.png"
+              ],
+              "package_info_status": "fetched",
+              "package_files": [
+                "package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01.pdf",
+                "package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_02.pdf"
+              ],
+              "package_preview_links": [
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489653772984590336",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1496880307462283264"
+              ],
               "package_detail_pages": [],
               "package_attachment_items": [],
               "spu_name": "佳洁士专研抗牙结石牙膏"
@@ -596,10 +682,20 @@
           "_page": "17",
           "_page_row_index": "2",
           "_main_id": "1488854084596486144",
-          "package_images": [],
-          "package_info_status": "no_package_image_found",
-          "package_files": [],
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01-2.png",
+            "package_renders/package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_02-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_01.pdf",
+            "package_pdfs/2026-04/佳洁士/粤国牙膏网备字2026000959/package_document_02.pdf"
+          ],
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489653772984590336",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1496880307462283264"
+          ],
           "package_detail_pages": [],
           "package_attachment_items": []
         }
@@ -626,9 +722,21 @@
           "_page": "2",
           "_page_row_index": "10",
           "_main_id": "1494369268228513792",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
-          "package_files": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-1.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-2.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-3.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-1.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-2.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-3.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_01.pdf",
+            "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02.pdf",
+            "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03.pdf"
+          ],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494390683833802752",
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494653392424869888",
@@ -659,9 +767,21 @@
               "_page": "2",
               "_page_row_index": "10",
               "_main_id": "1494369268228513792",
-              "package_images": [],
-              "package_info_status": "package_preview_link_detected",
-              "package_files": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_01-1.png",
+                "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-1.png",
+                "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-2.png",
+                "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-3.png",
+                "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-1.png",
+                "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-2.png",
+                "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-3.png"
+              ],
+              "package_info_status": "fetched",
+              "package_files": [
+                "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_01.pdf",
+                "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02.pdf",
+                "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03.pdf"
+              ],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494390683833802752",
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494653392424869888",
@@ -686,9 +806,21 @@
           "_page": "2",
           "_page_row_index": "10",
           "_main_id": "1494369268228513792",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
-          "package_files": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-1.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-2.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02-3.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-1.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-2.png",
+            "package_renders/package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03-3.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_01.pdf",
+            "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_02.pdf",
+            "package_pdfs/2026-04/BOP/沪国牙膏网备字2026000070/package_document_03.pdf"
+          ],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494390683833802752",
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494653392424869888",
@@ -733,12 +865,21 @@
           "_page": "4",
           "_page_row_index": "4",
           "_main_id": "1493215867918839808",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
-          "package_files": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01-2.png",
+            "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_02-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01.pdf",
+            "package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_02.pdf"
+          ],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303681885052928</div",
-            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952</div"
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952</div",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303681885052928",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952"
           ],
           "package_detail_pages": [],
           "package_attachment_items": []
@@ -755,7 +896,7 @@
           "_page_row_index": "2",
           "_main_id": "1508508783088201728",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_download_failed",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1508515395291652096",
@@ -776,7 +917,7 @@
           "_page_row_index": "8",
           "_main_id": "1489012790835769344",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_download_failed",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489018687465791488",
@@ -807,12 +948,21 @@
               "_page": "4",
               "_page_row_index": "4",
               "_main_id": "1493215867918839808",
-              "package_images": [],
-              "package_info_status": "package_preview_link_detected",
-              "package_files": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01-1.png",
+                "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01-2.png",
+                "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_02-1.png"
+              ],
+              "package_info_status": "fetched",
+              "package_files": [
+                "package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01.pdf",
+                "package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_02.pdf"
+              ],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303681885052928</div",
-                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952</div"
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952</div",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303681885052928",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952"
               ],
               "package_detail_pages": [],
               "package_attachment_items": [],
@@ -841,7 +991,7 @@
               "_page_row_index": "2",
               "_main_id": "1508508783088201728",
               "package_images": [],
-              "package_info_status": "package_preview_link_detected",
+              "package_info_status": "package_download_failed",
               "package_files": [],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1508515395291652096",
@@ -874,7 +1024,7 @@
               "_page_row_index": "8",
               "_main_id": "1489012790835769344",
               "package_images": [],
-              "package_info_status": "package_preview_link_detected",
+              "package_info_status": "package_download_failed",
               "package_files": [],
               "package_preview_links": [
                 "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489018687465791488",
@@ -899,12 +1049,21 @@
           "_page": "4",
           "_page_row_index": "4",
           "_main_id": "1493215867918839808",
-          "package_images": [],
-          "package_info_status": "package_preview_link_detected",
-          "package_files": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01-2.png",
+            "package_renders/package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_02-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_01.pdf",
+            "package_pdfs/2026-04/俊小白/沪国牙膏网备字2026000099/package_document_02.pdf"
+          ],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303681885052928</div",
-            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952</div"
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952</div",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303681885052928",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1494303720392957952"
           ],
           "package_detail_pages": [],
           "package_attachment_items": []
@@ -921,7 +1080,7 @@
           "_page_row_index": "2",
           "_main_id": "1508508783088201728",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_download_failed",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1508515395291652096",
@@ -942,7 +1101,7 @@
           "_page_row_index": "8",
           "_main_id": "1489012790835769344",
           "package_images": [],
-          "package_info_status": "package_preview_link_detected",
+          "package_info_status": "package_download_failed",
           "package_files": [],
           "package_preview_links": [
             "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1489018687465791488",
@@ -974,10 +1133,21 @@
           "_page": "2",
           "_page_row_index": "23",
           "_main_id": "1504806842029789184",
-          "package_images": [],
-          "package_info_status": "no_package_image_found",
-          "package_files": [],
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01-2.png",
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02-1.png",
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02-2.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01.pdf",
+            "package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02.pdf"
+          ],
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1505879870281949184",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1505880032207249408"
+          ],
           "package_detail_pages": [],
           "package_attachment_items": []
         }
@@ -1003,10 +1173,21 @@
               "_page": "2",
               "_page_row_index": "23",
               "_main_id": "1504806842029789184",
-              "package_images": [],
-              "package_info_status": "no_package_image_found",
-              "package_files": [],
-              "package_preview_links": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01-1.png",
+                "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01-2.png",
+                "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02-1.png",
+                "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02-2.png"
+              ],
+              "package_info_status": "fetched",
+              "package_files": [
+                "package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01.pdf",
+                "package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02.pdf"
+              ],
+              "package_preview_links": [
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1505879870281949184",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1505880032207249408"
+              ],
               "package_detail_pages": [],
               "package_attachment_items": [],
               "spu_name": "冷酸灵光感色修抗敏感牙膏"
@@ -1026,10 +1207,21 @@
           "_page": "2",
           "_page_row_index": "23",
           "_main_id": "1504806842029789184",
-          "package_images": [],
-          "package_info_status": "no_package_image_found",
-          "package_files": [],
-          "package_preview_links": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01-1.png",
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01-2.png",
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02-1.png",
+            "package_renders/package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02-2.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_01.pdf",
+            "package_pdfs/2026-04/冷酸灵/渝国牙膏网备字2026000036/package_document_02.pdf"
+          ],
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1505879870281949184",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1505880032207249408"
+          ],
           "package_detail_pages": [],
           "package_attachment_items": []
         }
