@@ -1,0 +1,208 @@
+{
+  "month": "2024-10",
+  "source": "current_chrome_page_month_hits",
+  "capture_scope": "month_hits_only",
+  "summary_count": 10,
+  "detail_count": 1,
+  "results": [
+    {
+      "brand": "参半",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "笑容加",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "高露洁",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "佳洁士",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "BOP",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "白惜",
+      "month": "2024-10",
+      "latest_filing_date": "2024-10-16",
+      "product_name": "白惜牙膏（柠汁凤梨香型）",
+      "filing_no": "苏国牙膏网备字2024000609",
+      "filer": "苏州清馨健康科技有限公司",
+      "month_count": 1,
+      "note": "2024-10存在备案记录",
+      "month_rows": [
+        {
+          "seq": "10",
+          "product_name": "白惜牙膏（柠汁凤梨香型）",
+          "filing_no": "苏国牙膏网备字2024000609",
+          "filing_date": "2024-10-16",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyNjY5ODgyMTEzOTUyNTYzMiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "10",
+          "_main_id": "1526698821139525632",
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [],
+          "package_info_status": "no_package_link_found",
+          "package_files": []
+        }
+      ],
+      "spu_groups": [
+        {
+          "spu_name": "白惜牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2024-10-16",
+          "latest_product_name": "白惜牙膏（柠汁凤梨香型）",
+          "filers": [
+            "苏州清馨健康科技有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "10",
+              "product_name": "白惜牙膏（柠汁凤梨香型）",
+              "filing_no": "苏国牙膏网备字2024000609",
+              "filing_date": "2024-10-16",
+              "filer": "苏州清馨健康科技有限公司",
+              "detail": "详情",
+              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyNjY5ODgyMTEzOTUyNTYzMiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+              "_page": "1",
+              "_page_row_index": "10",
+              "_main_id": "1526698821139525632",
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "package_images": [],
+              "package_info_status": "no_package_link_found",
+              "package_files": [],
+              "spu_name": "白惜牙膏"
+            }
+          ]
+        }
+      ],
+      "all_rows": [
+        {
+          "seq": "10",
+          "product_name": "白惜牙膏（柠汁凤梨香型）",
+          "filing_no": "苏国牙膏网备字2024000609",
+          "filing_date": "2024-10-16",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyNjY5ODgyMTEzOTUyNTYzMiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "10",
+          "_main_id": "1526698821139525632",
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [],
+          "package_info_status": "no_package_link_found",
+          "package_files": []
+        }
+      ]
+    },
+    {
+      "brand": "俊小白",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "冷酸灵",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "舒适达",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "好来",
+      "month": "2024-10",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2024-10未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "month": "2026-02",
+  "source": "current_chrome_page_month_hits",
+  "capture_scope": "month_hits_only",
+  "summary_count": 10,
+  "detail_count": 3,
+  "results": [
+    {
+      "brand": "参半",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "笑容加",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "高露洁",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "佳洁士",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "BOP",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "白惜",
+      "month": "2026-02",
+      "latest_filing_date": "2026-02-11",
+      "product_name": "白惜去渍美白牙膏（凭海临风香型）",
+      "filing_no": "苏国牙膏网备字2026000061",
+      "filer": "苏州清馨健康科技有限公司",
+      "month_count": 3,
+      "note": "2026-02存在备案记录",
+      "month_rows": [
+        {
+          "seq": "23",
+          "product_name": "白惜去渍美白牙膏（凭海临风香型）",
+          "filing_no": "苏国牙膏网备字2026000061",
+          "filing_date": "2026-02-11",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ3MTA4NTU1MTU0ODU4MzkzNiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "23",
+          "_main_id": "1471085551548583936",
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1471133867050082304",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1471133918887485440"
+          ],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [],
+          "package_info_status": "package_download_failed",
+          "package_files": []
+        },
+        {
+          "seq": "15",
+          "product_name": "白惜闪耀美白牙膏（凭海临风香型）",
+          "filing_no": "苏国牙膏网备字2026000063",
+          "filing_date": "2026-02-10",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyNDEwODQxOTYzNTA0ODQ0OCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "15",
+          "_main_id": "1524108419635048448",
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [],
+          "package_info_status": "no_package_link_found",
+          "package_files": []
+        },
+        {
+          "seq": "20",
+          "product_name": "白惜色修美白牙膏（凭海临风香型）",
+          "filing_no": "苏国牙膏网备字2026000062",
+          "filing_date": "2026-02-10",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4ODI0NjQxNjcwNjMzNDcyMCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "20",
+          "_main_id": "1488246416706334720",
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488282365025394688",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488282515307307008"
+          ],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-02/白惜/苏国牙膏网备字2026000062/package_document_01-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-02/白惜/苏国牙膏网备字2026000062/package_document_01.pdf"
+          ]
+        }
+      ],
+      "spu_groups": [
+        {
+          "spu_name": "白惜去渍美白牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-02-11",
+          "latest_product_name": "白惜去渍美白牙膏（凭海临风香型）",
+          "filers": [
+            "苏州清馨健康科技有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "23",
+              "product_name": "白惜去渍美白牙膏（凭海临风香型）",
+              "filing_no": "苏国牙膏网备字2026000061",
+              "filing_date": "2026-02-11",
+              "filer": "苏州清馨健康科技有限公司",
+              "detail": "详情",
+              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ3MTA4NTU1MTU0ODU4MzkzNiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+              "_page": "1",
+              "_page_row_index": "23",
+              "_main_id": "1471085551548583936",
+              "package_preview_links": [
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1471133867050082304",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1471133918887485440"
+              ],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "package_images": [],
+              "package_info_status": "package_download_failed",
+              "package_files": [],
+              "spu_name": "白惜去渍美白牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "白惜闪耀美白牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-02-10",
+          "latest_product_name": "白惜闪耀美白牙膏（凭海临风香型）",
+          "filers": [
+            "苏州清馨健康科技有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "15",
+              "product_name": "白惜闪耀美白牙膏（凭海临风香型）",
+              "filing_no": "苏国牙膏网备字2026000063",
+              "filing_date": "2026-02-10",
+              "filer": "苏州清馨健康科技有限公司",
+              "detail": "详情",
+              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyNDEwODQxOTYzNTA0ODQ0OCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+              "_page": "1",
+              "_page_row_index": "15",
+              "_main_id": "1524108419635048448",
+              "package_preview_links": [],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "package_images": [],
+              "package_info_status": "no_package_link_found",
+              "package_files": [],
+              "spu_name": "白惜闪耀美白牙膏"
+            }
+          ]
+        },
+        {
+          "spu_name": "白惜色修美白牙膏",
+          "sku_count": 1,
+          "latest_filing_date": "2026-02-10",
+          "latest_product_name": "白惜色修美白牙膏（凭海临风香型）",
+          "filers": [
+            "苏州清馨健康科技有限公司"
+          ],
+          "rows": [
+            {
+              "seq": "20",
+              "product_name": "白惜色修美白牙膏（凭海临风香型）",
+              "filing_no": "苏国牙膏网备字2026000062",
+              "filing_date": "2026-02-10",
+              "filer": "苏州清馨健康科技有限公司",
+              "detail": "详情",
+              "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4ODI0NjQxNjcwNjMzNDcyMCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+              "_page": "1",
+              "_page_row_index": "20",
+              "_main_id": "1488246416706334720",
+              "package_preview_links": [
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488282365025394688",
+                "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488282515307307008"
+              ],
+              "package_detail_pages": [],
+              "package_attachment_items": [],
+              "package_images": [
+                "package_renders/package_pdfs/2026-02/白惜/苏国牙膏网备字2026000062/package_document_01-1.png"
+              ],
+              "package_info_status": "fetched",
+              "package_files": [
+                "package_pdfs/2026-02/白惜/苏国牙膏网备字2026000062/package_document_01.pdf"
+              ],
+              "spu_name": "白惜色修美白牙膏"
+            }
+          ]
+        }
+      ],
+      "all_rows": [
+        {
+          "seq": "23",
+          "product_name": "白惜去渍美白牙膏（凭海临风香型）",
+          "filing_no": "苏国牙膏网备字2026000061",
+          "filing_date": "2026-02-11",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ3MTA4NTU1MTU0ODU4MzkzNiZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "23",
+          "_main_id": "1471085551548583936",
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1471133867050082304",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1471133918887485440"
+          ],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [],
+          "package_info_status": "package_download_failed",
+          "package_files": []
+        },
+        {
+          "seq": "15",
+          "product_name": "白惜闪耀美白牙膏（凭海临风香型）",
+          "filing_no": "苏国牙膏网备字2026000063",
+          "filing_date": "2026-02-10",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTUyNDEwODQxOTYzNTA0ODQ0OCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "15",
+          "_main_id": "1524108419635048448",
+          "package_preview_links": [],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [],
+          "package_info_status": "no_package_link_found",
+          "package_files": []
+        },
+        {
+          "seq": "20",
+          "product_name": "白惜色修美白牙膏（凭海临风香型）",
+          "filing_no": "苏国牙膏网备字2026000062",
+          "filing_date": "2026-02-10",
+          "filer": "苏州清馨健康科技有限公司",
+          "detail": "详情",
+          "detail_url": "https://www.nmpa.gov.cn/datasearch/search-info.html?nmpa=aWQ9MTQ4ODI0NjQxNjcwNjMzNDcyMCZpdGVtSWQ9ZmY4MDgwODE4ZTYzYzkwMDAxOGU3ODdiYzQ4ZDA1OTg=",
+          "_page": "1",
+          "_page_row_index": "20",
+          "_main_id": "1488246416706334720",
+          "package_preview_links": [
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488282365025394688",
+            "https://hzpba.nmpa.gov.cn/HZPBZCX/PTHZPBA-SERVER/nmpafile/gsxxFilePreview?attachmentId=1488282515307307008"
+          ],
+          "package_detail_pages": [],
+          "package_attachment_items": [],
+          "package_images": [
+            "package_renders/package_pdfs/2026-02/白惜/苏国牙膏网备字2026000062/package_document_01-1.png"
+          ],
+          "package_info_status": "fetched",
+          "package_files": [
+            "package_pdfs/2026-02/白惜/苏国牙膏网备字2026000062/package_document_01.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "俊小白",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "冷酸灵",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "舒适达",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    },
+    {
+      "brand": "好来",
+      "month": "2026-02",
+      "latest_filing_date": "",
+      "product_name": "",
+      "filing_no": "",
+      "filer": "",
+      "month_count": 0,
+      "note": "2026-02未检索到备案记录",
+      "month_rows": [],
+      "spu_groups": [],
+      "all_rows": []
+    }
+  ]
+}
